@@ -1,11 +1,12 @@
-from django.shortcuts import render
-from courses.models import Professor, Department
+from django.shortcuts import render_to_response
+from courses.models import Professor
 
 # Create your views here.
 def search_prof_by_department(request, department_name):
     prof_listing = []
 
-    for professor in Professor.objects.filter():#how to filter this?
+    for professor in Professor.objects.filter(
+            department__dep_name__startswith = department_name):
         prof_dict = {}
         prof_dict['professor_object'] = professor
         prof_dict['first_name']= professor.first_name
@@ -17,4 +18,6 @@ def search_prof_by_department(request, department_name):
         prof_dict['department']=professor.department.dep_name
         prof_listing.append(prof_dict)
 
-    return
+    return render_to_response('search_prof_dep.html')
+def search_prof(request):
+    return render_to_response('search_prof.html')
