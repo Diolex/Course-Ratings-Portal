@@ -11,10 +11,10 @@
         <title>Dashboard Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="/static/courses/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="/static/courses/dashboard.css" rel="stylesheet">
+        <link href="/static/dashboard.css" rel="stylesheet">
 
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
