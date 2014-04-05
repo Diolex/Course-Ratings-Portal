@@ -84,6 +84,11 @@ def initiate_course_search(request):
         course_dict['course_object'] = course
         course_dict['name'] = course.course_name
         course_dict['university'] = course.university.university_name
+        course_dict['department'] = course.department.dep_name
+        course_dict['professor'] = course.professor.name
+        course_dict['registration_code'] = course.registration_code
+        course_listing.append(course_dict)
 
+    return render('course_results.html', course_listing
 
 
