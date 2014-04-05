@@ -47,8 +47,8 @@ def initiate_prof_search(request):
         args['easiness_value'] = request.GET.get('quality')
     if 'easiness' in request.GET:
         args['easiness'] = request.GET.get('easiness')
-   professors = Professor.objects.filter(**args)
-   for professor in professors:
+    professors = Professor.objects.filter(**args)
+    for professor in professors:
         prof_dict = {}
         prof_dict['professor_object'] = professor
         prof_dict['first_name']= professor.first_name
