@@ -89,6 +89,5 @@ def initiate_course_search(request):
         course_dict['registration_code'] = course.registration_code
         course_listing.append(course_dict)
 
-    return render('course_results.html', course_listing
-
+    return render('course_results.html', course_listing)
 
