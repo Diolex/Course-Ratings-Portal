@@ -44,6 +44,8 @@ class Course(models.Model):
     course_name = models.CharField(max_length=100)
     university = models.ForeignKey(University)
     department = models.ForeignKey(Department,null=True)
+    start_date = models.DateTimeField()
+    end_date = models.DateTimeField()
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
@@ -54,6 +56,8 @@ class Section(models.Model):
     course = models.ForeignKey(Course)
     section_id = models.PositiveIntegerField(default=0, unique=True)
     professor = models.ForeignKey(Professor)
+    class_time = models.CharField(max_length=100)
+
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default = timezone.now, blank=True)
 
