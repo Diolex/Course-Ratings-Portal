@@ -44,14 +44,24 @@ class Course(models.Model):
 
     course_name = models.CharField(max_length=100)
     university = models.ForeignKey(University)
-    department = models.ForeignKey(Department)
-    professor = models.ForeignKey(Professor)
+    department = models.ForeignKey(Department,null=True)
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
 
     class Meta:
         ordering=['course_name']
+
+class Section(models.Model):
+    course = models.ForeignKey(Course)
+    section_id = models.IntField(default=0, unique=True)
+    professor = models.ForeignKey(Professor)
+    date_created = models.DateTimeField(default=timezone.now, blank=True)
+    date_modified = models.DateTimeField(default = timezone.now, blank=True)
+
+    class Meta:
+        ordering=['section_id']
+
 
 class Rating(models.Model):
     course = models.ForeignKey(Course, blank=True, null=True)

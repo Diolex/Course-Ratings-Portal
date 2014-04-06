@@ -5,6 +5,7 @@ class UserProfile(models.Model):
     user = models.ForeignKey(User, unique = True)
     name = models.CharField(max_length = 50)
     url = models.URLField(blank = True)
+    year = models.PositiveSmallIntegerField(default=1)
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
