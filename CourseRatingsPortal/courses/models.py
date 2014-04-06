@@ -36,7 +36,6 @@ class Professor(models.Model):
     class Meta:
         ordering=['name']
 
-
 class Course(models.Model):
     course_id = models.CharField(max_length=50)
     course_name = models.CharField(max_length=50)
@@ -47,7 +46,6 @@ class Course(models.Model):
     department = models.ForeignKey(Department,null=True)
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
-
 
     class Meta:
         ordering=['course_name']
@@ -62,7 +60,6 @@ class Section(models.Model):
     class Meta:
         ordering=['section_id']
 
-
 class Rating(models.Model):
     course = models.ForeignKey(Course, blank=True, null=True)
     professor = models.ForeignKey(Professor, blank=True, null=True)
@@ -70,6 +67,11 @@ class Rating(models.Model):
     rating_text = models.CharField(max_length = 500)
     rating_quality = models.FloatField(default=0)
     rating_easiness = models.FloatField(default=0)
+    counted = models.BooleanField(default=False)
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
+
+    class Meta:
+        ordering=['date_modified']
+
