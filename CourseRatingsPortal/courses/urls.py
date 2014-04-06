@@ -4,7 +4,7 @@ from courses import views
 from django.contrib import admin
 admin.autodiscover()
 urlpatterns=patterns('',
-        #url(r'^$', views.index),
-        #url(r'^\w{1,50}/\w', views.get_course_info), #university, course_name
+        url(r'^$', views.index),
+        url(r'^(?P<university>\w+)/(?P<course>\w+)\$', views.get_course), #university, course_name
 )
 

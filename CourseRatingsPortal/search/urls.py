@@ -1,6 +1,7 @@
 from django.conf.urls import patterns, url
 from search import views
-
+from django.contrib import admin
+admin.autodiscover()
 urlpatterns=patterns('',
         url(r'^$', views.index, name='index'),
         url(r'professor/$', views.search_prof),
