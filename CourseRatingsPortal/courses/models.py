@@ -52,7 +52,7 @@ class Course(models.Model):
 
 class Section(models.Model):
     course = models.ForeignKey(Course)
-    section_id = models.IntField(default=0, unique=True)
+    section_id = models.PositiveIntegerField(default=0, unique=True)
     professor = models.ForeignKey(Professor)
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default = timezone.now, blank=True)
