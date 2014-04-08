@@ -1,4 +1,9 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 # Create your models here.
+class Search(model.Models):
+    user = models.ForeignKey(User)
+    search_parameters = models.CharField(max_length=150)
 
+def register_search(args):
+    print("registering search")
