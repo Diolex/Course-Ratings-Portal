@@ -21,7 +21,7 @@ class Command(NoArgsCommand):
         else:
             os.chdir(args[0])
             university_name = args[1]
-        total_courses = 0
+        totals = [0,0,0,0,0] #university, departments, course, section, professor
 
         #make sure university exists. If not, create it
         u_set = University.objects.filter(university_name=university_name)
@@ -30,6 +30,7 @@ class Command(NoArgsCommand):
             u = University(university_name=university_name)
             u.save()
             u_set= University.objects.filter(university_name=university_name)
+            totals[0]+=1
         university = u_set[0]
         for dir_, _, files in os.walk(os.getcwd(), topdown=True):
             for fileName in files:
@@ -43,6 +44,7 @@ class Command(NoArgsCommand):
                     d = Department(dep_name = dep_name)
                     d.save()
                     d_set = Department.objects.filter(dep_name=dep_name)
+                    totals[1]+=1
                 department = d_set[0]
 
                 #open file and begin saving courses
@@ -52,12 +54,16 @@ class Command(NoArgsCommand):
                     iter_row = iter(rows)
                     next(iter_row)
                     for row in iter_row:
-                        self._save_course(row,university,department)
+                        total = self._save_course(row,university,department)
+                        totals[2]+=total[0]
+                        totals[3]+=total[1]
+                        totals[4]+=total[2]
                     num_rows = len(rows)
-                    total_courses += num_rows
-                    print(num_rows,"courses read from",relFile)
-        print("Total courses imported:",total_courses)
+                    print(num_rows,"rows read from",relFile)
+        print("Imported Data:\nUniversities:",totals[0],"\nDepartments:",totals[1],
+                "\nProfessors:",totals[4],"\nCourses:",totals[2],"\nSections:",totals[3])
     def _save_course(self, row, university, department):
+        total = [0,0,0] #course, section, professor
         #Separate out course name, id, registration code, section id
         course_listing = row[0]
         p = re.compile(r'\s-\s')
@@ -73,6 +79,7 @@ class Command(NoArgsCommand):
             print("Created Course:",new_course.course_id,new_course.course_name)
             c_set = Course.objects.filter(course_id=split[2], course_name=split[0],
                     university=university, department=department)
+            total[0]+=1
         course = c_set[0]
         has_secondary = len(row)>=14
         #check if professor exists
@@ -92,6 +99,7 @@ class Command(NoArgsCommand):
                 new_professor.save()
                 profs.append(new_professor)
                 print('Created Professor:',prof_name,university.university_name)
+                total[2]+=1
             else:
                 profs.extend(p_set)
         profs2=[]
@@ -109,6 +117,7 @@ class Command(NoArgsCommand):
                 new_professor.save()
                 profs.append(new_professor)
                 print('Created Professor:',prof_name,university.university_name)
+                total[2]+=1
             else:
                 profs.extend(p_set)
         for prof in profs2:
@@ -127,8 +136,7 @@ class Command(NoArgsCommand):
                 new_section.professor.add(prof)
             for prof in profs2:
                 new_section.professor.add(prof)
-
             new_section.save()
             print('Created Section:',course.course_id,new_section.section_id)
-
-
+            total[1]+=1
+        return total
