@@ -21,7 +21,7 @@ def initiate_prof_search(request):
     if 'name' in request.GET:
         args['name__contains']= request.GET.get('name')
     if 'department' in request.GET:
-        args['department__dep_name__contains']= request.GET.get('name')
+        args['department__dep_name__contains']= request.GET.get('department')
     if 'ratings' in request.GET:
         args['rating_value'] = request.GET.get('ratings')
     if 'quality' in request.GET:
