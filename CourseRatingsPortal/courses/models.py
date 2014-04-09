@@ -55,8 +55,12 @@ class Course(models.Model):
 class Section(models.Model):
     course = models.ForeignKey(Course)
     section_id = models.PositiveIntegerField(default=0, unique=True)
-    professor = models.ForeignKey(Professor)
-    class_time = models.CharField(max_length=100)
+    professor = models.ForeignKey(Professor, null=True)
+    time = models.CharField(max_length=50)
+    days = models.CharField(max_length=5)
+    location = models.CharField(max_length=100)
+    date_range = models.CharField(max_length=50)
+    schedule_type = models.CharField(max_length=50)
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default = timezone.now, blank=True)
