@@ -9,10 +9,38 @@ def index(request):
 
 def get_course(request, university, course):
     qs_course = Course.objects.filter(university__university_name__contains=university).filter(course_id__contains=course)
-
     return HttpResponse("Display page - University: "+university+", Course:"+course)
 
 def get_professor(request, university, professor):
     qs_professor = Professor.objects.filter(university__university_name__contains=university).filter(name__contains=professor)
-
     return HttpResponse("Display page- Universit: "+university+", Professor:"+professor)
+
+
+class UniversityCreate(CreateView):
+    model = University
+    fields = ['university_name']  
+
+class DepartmentCreate(CreateView):
+    model = Department 
+    fields = ['dep_name']  
+
+class ProfessorCreate(CreateView):
+    model = Professor
+    fields = ['name', 'rating_value', 'university', 'department']
+
+class CourseCreate(CreateView):
+    model = Course
+    fields = ['course_id', 'course_name', 'university', 'department']
+
+class SectionCreate(CreateView):
+    model = Section
+    fields = ['course', 'section_id', 'registration_code', 'professor', 'location', 'location2',
+              'class_type', 'class_type2', 'time', 'time2', 'days', 'days2', 'date_range',
+              'date_range2', 'schedule_type', 'schedule_type2']
+
+class Rating(CreateView):
+    model = Rating
+    fields = ['course', 'professor', 'rating_text', 'rating_quality', 'rating_easiness', 'counted']
+    def form_valid(self, form):
+        form.instance.created_by = self.request.user
+        return super(AuthorCreate, self).form_valid(form) 
