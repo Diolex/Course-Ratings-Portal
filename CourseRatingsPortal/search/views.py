@@ -1,5 +1,5 @@
 from django.shortcuts import render_to_response
-from courses.models import Course, Professor
+from courses.models import Course, Section, Professor
 # Create your views here.
 def index(request):
     if request.method == 'GET':
@@ -61,7 +61,7 @@ def initiate_course_search(request):
 
     sections = Section.objects.filter(**args)
 
-    for section in ections:
+    for section in sections:
         course_dict = {}
         course_dict['section_object'] = section
         course_dict['course_object'] = section.course
