@@ -47,27 +47,42 @@ def initiate_course_search(request):
     course_listing = []
     args={}
     if 'name' in request.GET:
-        args['course_name__contains']=request.GET.get('name')
+        args['course__course_name__contains']=request.GET.get('name')
     if 'course_id' in request.GET:
-        args['course_id']=request.GET.get('course_id')
+        args['course__course_id']=request.GET.get('course_id')
     if 'registration_code' in request.GET:
         args['registration_code']=request.GET.get('registration_code')
     if 'university' in request.GET:
-        args['university__university_name__contains'] = request.GET.get('university')
+        args['course__university__university_name__contains'] = request.GET.get('university')
     if 'department' in request.GET:
-        args['department__contains'] = request.GET.get('department')
+        args['course__department__contains'] = request.GET.get('department')
     if 'professor' in request.GET:
         args['professor__name__contains'] = request.GET.get('professor')
 
-    courses = Course.objects.filter(**args)
-    for course in courses:
+    sections = Section.objects.filter(**args)
+
+    for section in ections:
         course_dict = {}
-        course_dict['course_object'] = course
-        course_dict['name'] = course.course_name
-        course_dict['university'] = course.university.university_name
-        course_dict['department'] = course.department.dep_name
-        course_dict['professor'] = course.professor.name
-        course_dict['registration_code'] = course.registration_code
+        course_dict['section_object'] = section
+        course_dict['course_object'] = section.course
+        course_dict['name'] = section.course.course_name
+        course_dict['course_id'] = section.course.course_id
+        course_dict['university'] = section.course.university.university_name
+        course_dict['department'] = section.course.department.dep_name
+        course_dict['registration_code'] = section.registration_code
+        course_dict['section_id']=section.section_id
+        course_dict['professor']=section.professor.all()
+        course_dict['location']=section.location
+        course_dict['location2']=section.location2
+        course_dict['class_type']=section.class_type
+        course_dict['class_type2']=section.class_type2
+        course_dict['time']=section.time
+        course_dict['time2']=section.time2
+        course_dict['days']=section.days
+        course_dict['days2']=section.days2
+        course_dict['date_range']=section.date_range
+        course_dict['date_range2']=section.date_range2
+
         course_listing.append(course_dict)
 
     return render_to_response('course_results.html', course_listing)
