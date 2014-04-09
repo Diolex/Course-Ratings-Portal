@@ -35,7 +35,7 @@ class Command(NoArgsCommand):
             for fileName in files:
                 relDir = os.path.relpath(dir_,os.getcwd())
                 relFile = os.path.join(relDir, fileName)
-
+                print("Beginning to read",fileName)
                 #make sure department exists. If not, create it
                 dep_name = fileName[:len(fileName)-4]
                 d_set = Department.objects.filter(dep_name =dep_name)
@@ -70,17 +70,20 @@ class Command(NoArgsCommand):
             new_course = Course(course_id = split[2], course_name=split[0],
                     university=university, department=department)
             new_course.save()
-            print("Course Created:",split[2],split[0])
+            print("Created Course:",new_course.course_id,new_course.course_name)
             c_set = Course.objects.filter(course_id=split[2], course_name=split[0],
                     university=university, department=department)
         course = c_set[0]
-
+        has_secondary = len(row)>=14
         #check if professor exists
         prof_names = row[7].split(',')
-        prof_names[0] = prof_names[0][:len(prof_names[0])-3].strip()
+        prof_names[0] = prof_names[0][:len(prof_names[0])-3]
         prof_names = [ ' '.join(s.split()) for s in prof_names]
-        if len(prof_names)>1:
-            print(prof_names)
+        prof_names2=[]
+        if has_secondary is True:
+            prof_names2=row[14].split(',')
+            prof_names2[0]=prof_names2[0][:len(prof_names2[0])-3]
+            prof_names2=[' '.join(s.split()) for s in prof_names2]
         profs=[]
         for prof_name in prof_names:
             p_set = Professor.objects.filter(university=university,name=prof_name)
@@ -91,13 +94,41 @@ class Command(NoArgsCommand):
                 print('Created Professor:',prof_name,university.university_name)
             else:
                 profs.extend(p_set)
-        for prof in profs:
+        profs2=[]
+        for prof_name in prof_names2:
+            p_set = Professor.objects.filter(university=university,name=prof_name)
+            if len(p_set)==0:
+                new_professor = Professor(name=prof_name, university=university)
+                new_professor.save()
+                profs2.append(new_professor)
+        profs=[]
+        for prof_name in prof_names:
+            p_set = Professor.objects.filter(university=university,name=prof_name)
+            if len(p_set)==0:
+                new_professor = Professor(name=prof_name, university=university)
+                new_professor.save()
+                profs.append(new_professor)
+                print('Created Professor:',prof_name,university.university_name)
+            else:
+                profs.extend(p_set)
+        for prof in profs2:
             prof.department.add(department)
+
         s_set = Section.objects.filter(course=course,section_id=split[3],
                 registration_code=split[1])
-        '''
         if len(s_set)==0:
-            new_section = Section(course=course, section_id=split[3],
-                    registration_code=split[1],time=row[2],time2=row[9], days=row[3],
-                    days2=row[10], )
-'''
+            new_section = Section(course=course, section_id=split[3], registration_code=split[1],
+                    time = row[2], days=row[3], location=row[4], date_range = row[5],
+                    schedule_type = row[6], schedule_type2 = row[8] if has_secondary else '',
+                    time2 = row[9] if has_secondary else '', days2 = row[10] if has_secondary else '',
+                    location2 = row[11] if has_secondary else '', date_range2 = row[12] if has_secondary else '')
+            new_section.save()
+            for prof in profs:
+                new_section.professor.add(prof)
+            for prof in profs2:
+                new_section.professor.add(prof)
+
+            new_section.save()
+            print('Created Section:',course.course_id,new_section.section_id)
+
+

@@ -54,6 +54,7 @@ class Section(models.Model):
     registration_code = models.CharField(max_length=15)
     professor = models.ManyToManyField(Professor)
     location = models.CharField(max_length=50)
+    location2 = models.CharField(max_length=50)
 
     class_type = models.CharField(max_length=25)
     class_type2 = models.CharField(max_length=25)
