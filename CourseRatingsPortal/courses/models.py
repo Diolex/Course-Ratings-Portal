@@ -38,14 +38,10 @@ class Professor(models.Model):
 
 class Course(models.Model):
     course_id = models.CharField(max_length=50)
-    course_name = models.CharField(max_length=50)
-    registration_code = models.PositiveIntegerField()
-
     course_name = models.CharField(max_length=100)
+
     university = models.ForeignKey(University)
     department = models.ForeignKey(Department,null=True)
-    start_date = models.DateTimeField()
-    end_date = models.DateTimeField()
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
@@ -54,13 +50,22 @@ class Course(models.Model):
 
 class Section(models.Model):
     course = models.ForeignKey(Course)
-    section_id = models.PositiveIntegerField(default=0, unique=True)
-    professor = models.ForeignKey(Professor, null=True)
+    section_id = models.CharField(max_length=5)
+    registration_code = models.CharField(max_length=15)
+    professor = models.ManyToManyField(Professor)
+    location = models.CharField(max_length=50)
+
+    class_type = models.CharField(max_length=25)
+    class_type2 = models.CharField(max_length=25)
     time = models.CharField(max_length=50)
+    time2 = models.CharField(max_length=50)
     days = models.CharField(max_length=5)
-    location = models.CharField(max_length=100)
+    days2 = models.CharField(max_length=5)
+
     date_range = models.CharField(max_length=50)
+    date_range2 = models.CharField(max_length=50)
     schedule_type = models.CharField(max_length=50)
+    schedule_type2 = models.CharField(max_length=50)
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default = timezone.now, blank=True)
