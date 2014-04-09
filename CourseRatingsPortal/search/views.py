@@ -38,7 +38,7 @@ def initiate_prof_search(request):
         prof_dict['university']=professor.university.university_name
         prof_dict['rating_value']=professor.rating_value
         prof_dict['easiness_value']=professor.easiness_value
-        prof_dict['department']=professor.department.dep_name
+        prof_dict['department']=[ x.dep_name for x in professor.department.all()]
         prof_listing.append(prof_dict)
 
     return render_to_response('professor_results.html',prof_listing)
