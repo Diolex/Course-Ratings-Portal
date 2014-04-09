@@ -9,6 +9,8 @@ class University(models.Model):
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
+    def __str__(self):
+        return self.university_name
     class Meta:
         ordering=['university_name']
         verbose_name_plural = "Universities"
@@ -19,6 +21,8 @@ class Department(models.Model):
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
+    def __str__(self):
+        return self.dep_name
     class Meta:
         ordering=['dep_name']
 
@@ -32,7 +36,8 @@ class Professor(models.Model):
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
-
+    def __str__(self):
+        return self.name+" : "+self.university.university_name
     class Meta:
         ordering=['name']
 
@@ -45,8 +50,11 @@ class Course(models.Model):
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
 
+    def __str__(self):
+        return self.course_id+" : "+self.course_name
+
     class Meta:
-        ordering=['course_name']
+        ordering=['course_id','course_name']
 
 class Section(models.Model):
     course = models.ForeignKey(Course)
@@ -71,8 +79,11 @@ class Section(models.Model):
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default = timezone.now, blank=True)
 
+    def __str__(self):
+        return self.course.course_id+" : "+self.course.course_name+" : "+self.section_id
+
     class Meta:
-        ordering=['section_id']
+        ordering=['course__course_id','course__course_name','section_id']
 
 class Rating(models.Model):
     course = models.ForeignKey(Course, blank=True, null=True)
