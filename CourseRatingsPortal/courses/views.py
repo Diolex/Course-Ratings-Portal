@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render_to_response
 from django.http import HttpResponse
 from courses.models import University, Department, Professor, Course, Section, Rating
 
@@ -9,20 +9,22 @@ def index(request):
 
 def get_course(request, university, course):
     qs_course = Course.objects.filter(university__university_name__contains=university).filter(course_id__contains=course)
-    return HttpResponse("Display page - University: "+university+", Course:"+course)
+    return render_to_response("university_display.html",qs_course)
+    #return HttpResponse("Display page - University: "+university+", Course:"+course)
 
 def get_professor(request, university, professor):
     qs_professor = Professor.objects.filter(university__university_name__contains=university).filter(name__contains=professor)
-    return HttpResponse("Display page- Universit: "+university+", Professor:"+professor)
+    return render_to_response("professor_display.html",qs_professor)
+    #return HttpResponse("Display page- Universit: "+university+", Professor:"+professor)
 
 
 class UniversityCreate(CreateView):
     model = University
-    fields = ['university_name']  
+    fields = ['university_name']
 
 class DepartmentCreate(CreateView):
-    model = Department 
-    fields = ['dep_name']  
+    model = Department
+    fields = ['dep_name']
 
 class ProfessorCreate(CreateView):
     model = Professor
@@ -43,4 +45,4 @@ class Rating(CreateView):
     fields = ['course', 'professor', 'rating_text', 'rating_quality', 'rating_easiness', 'counted']
     def form_valid(self, form):
         form.instance.created_by = self.request.user
-        return super(AuthorCreate, self).form_valid(form) 
+        return super(AuthorCreate, self).form_valid(form)
