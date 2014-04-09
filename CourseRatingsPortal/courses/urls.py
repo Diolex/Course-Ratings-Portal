@@ -6,5 +6,6 @@ admin.autodiscover()
 urlpatterns=patterns('',
         url(r'^$', views.index),
         url(r'^(?P<university>\w+)/(?P<course>\w+)\$', views.get_course), #university, course_name
+        url(r'^/professor/(?P<university>\w+)/(?P<professor>\w+)\$', views.get_professor),
 )
 
