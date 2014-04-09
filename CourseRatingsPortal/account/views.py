@@ -13,3 +13,6 @@ def edit_profile(request):
 
 def get_profile(request, user):
     return HttpResponse("Placeholder: View "+user+"'s profile")
+
+def login(request):
+    return HttpResponse("This should be a login form")

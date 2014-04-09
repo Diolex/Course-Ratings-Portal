@@ -71,7 +71,7 @@ def initiate_course_search(request):
         course_dict['department'] = section.course.department.dep_name
         course_dict['registration_code'] = section.registration_code
         course_dict['section_id']=section.section_id
-        course_dict['professor']=section.professor.all()
+        course_dict['professor']= [prof.name for prof in section.professor.all()]
         course_dict['location']=section.location
         course_dict['location2']=section.location2
         course_dict['class_type']=section.class_type

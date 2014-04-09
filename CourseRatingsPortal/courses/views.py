@@ -1,4 +1,6 @@
 from django.shortcuts import render_to_response
+from django.views.generic.edit import CreateView#, UpdateView
+from django.forms import ModelForm
 from django.http import HttpResponse
 from courses.models import University, Department, Professor, Course, Section, Rating
 
@@ -40,9 +42,15 @@ class SectionCreate(CreateView):
               'class_type', 'class_type2', 'time', 'time2', 'days', 'days2', 'date_range',
               'date_range2', 'schedule_type', 'schedule_type2']
 
-class Rating(CreateView):
+class RatingForm(ModelForm):
+    class Meta:
+        model = Rating
+        exclude = ('course','professor')
+
+class RatingCreate(CreateView):
+    form_class = RatingForm
     model = Rating
     fields = ['course', 'professor', 'rating_text', 'rating_quality', 'rating_easiness', 'counted']
     def form_valid(self, form):
         form.instance.created_by = self.request.user
-        return super(AuthorCreate, self).form_valid(form)
+        return super(RatingCreate, self).form_valid(form)
