@@ -9,27 +9,27 @@
   <li><a href="{% url 'index' %}">Home</a></li>
   <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
 </ol>
-<h1 class="page-header">Results</h1>
-<table class="table table-condensed">
+<h1 class="page-header">{{ courses|length }} Results</h1>
+<table class="table table-condensed table-hover">
   <thead>
     <tr>
       <th>Course Name</th>
       <th>Course ID</th>
       <th>Department</th>
-      <th>Number of Sections</th>
-      <th>Link</th>
+      <!--<th>Number of Sections</th>-->
+      <th>Sections</th>
     </tr>
   </thead>
   <tbody>
     {% for course in courses %}
     <tr>
-      <td>{{ course.name }}</td>
+      <td>{{ course.course_name }}</td>
       <td>{{ course.course_id }}</td>
       <td>{{ course.department }}</td>
-      <td>{{ course.section_count }}</td>
+      <!--<td>{{ course.section_count }}</td>-->
       <td>
-        <button type="button" class="btn btn-default btn-xs" href="/course/{{ course.name }}">
-          <span class="glyphicon glyphicon-circle-arrow-right"></span> View Sections
+        <button type="button" class="btn btn-default btn-xs" href="/course/{{ course.course_id }}">
+          View Sections <span class="glyphicon glyphicon-circle-arrow-right"></span>
         </button>
       </td>
     </tr>
