@@ -10,7 +10,7 @@
   <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
 </ol>
 <h1 class="page-header">Search for Courses</h1>
-<form role="form">
+<form role="form" method="get" action="/search/course">
   <div class="form-group">
     <label for="course_id">Course Id</label>
     <input type="text" class="form-control" id="course_id" name="course_id" placeholder="Example: ABC 213">

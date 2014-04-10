@@ -51,17 +51,17 @@ def initiate_prof_search(request):
 def initiate_course_search(request):
     course_listing = []
     args={}
-    if 'name' in request.GET:
+    if request.GET.get('name'):
         args['course__course_name__contains']=request.GET.get('name')
-    if 'course_id' in request.GET:
+    if request.GET.get('course_id'):
         args['course__course_id']=request.GET.get('course_id')
-    if 'registration_code' in request.GET:
+    if request.GET.get('registration_code'):
         args['registration_code']=request.GET.get('registration_code')
-    if 'university' in request.GET:
+    if request.GET.get('university'):
         args['course__university__university_name__contains'] = request.GET.get('university')
-    if 'department' in request.GET:
+    if request.GET.get('department'):
         args['course__department__contains'] = request.GET.get('department')
-    if 'professor' in request.GET:
+    if request.GET.get('professor'):
         args['professor__name__contains'] = request.GET.get('professor')
 
     sections = Section.objects.filter(**args)
@@ -73,7 +73,7 @@ def initiate_course_search(request):
             course_sections[section.course] = [section]
 
     dict = {"courses" : course_sections}
-    return render_to_response('search/course_results.html', dict)
+    return render_to_response('search/courses_results.html', dict)
     '''
     for section in sections:
         course_dict = {}
