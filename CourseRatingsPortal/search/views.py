@@ -48,7 +48,6 @@ def initiate_prof_search(request):
     return render_to_response('search/professor_results.html',dict)
 
 def initiate_course_search(request):
-    course_listing = []
     args={}
     if request.GET.get('name'):
         args['course_name__contains']=request.GET.get('name')
@@ -60,10 +59,12 @@ def initiate_course_search(request):
         args['university__university_name__contains'] = request.GET.get('university')
     if request.GET.get('department'):
         args['department__contains'] = request.GET.get('department')
-    #if request.GET.get('professor'):
-    #    args['professor__name__contains'] = request.GET.get('professor')
+    courses = Course.objects.filter(**args)
+    if request.GET.get('professor'):
 
-    courses = Course.objects.filter(**args).annotate(section_cout = Count('section'))
+        sections = Course.objects.filter(section__professor__contains=Professor.objects.filter(name__contains=request.GET.get('professor')))
+        courses = courses & sections
+
     dict = {"courses" : courses}
     return render_to_response('search/courses_results.html', dict)
 
