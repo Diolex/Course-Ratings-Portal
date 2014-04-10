@@ -18,19 +18,28 @@ def search_sections(request):
 def initiate_prof_search(request):
     prof_listing = []
     args={}
-    if 'name' in request.GET:
+    if request.GET.get('name') is not '':
         args['name__contains']= request.GET.get('name')
-    if 'department' in request.GET:
+    if request.GET.get('department') is not '':
         args['department__dep_name__contains']= request.GET.get('department')
-    if 'ratings' in request.GET:
+    if request.GET.get('ratings') is not '':
         args['rating_value'] = request.GET.get('ratings')
-    if 'quality' in request.GET:
+    if request.GET.get('quality') is not '':
         args['easiness_value'] = request.GET.get('quality')
-    if 'easiness' in request.GET:
+    if request.GET.get('easiness') is not '':
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
+    for professor in professors:
+        prof_dict = {}
+        prof_dict['professor_object'] = professor
+        prof_dict['name']=professor.name
+        prof_dict['university']=professor.university.university_name
+        prof_dict['rating_value']=professor.rating_value
+        prof_dict['easiness_value']=professor.easiness_value
+        prof_dict['department']=[ x.dep_name for x in professor.department.all()]
+        prof_listing.append(prof_dict)
 
-    return render_to_response('search/professor_results.html',professors)
+    return render_to_response('search/professor_results.html',prof_listing)
 
 def initiate_course_search(request):
     course_listing = []
