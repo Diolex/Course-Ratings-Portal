@@ -58,7 +58,14 @@ def initiate_course_search(request):
         args['professor__name__contains'] = request.GET.get('professor')
 
     sections = Section.objects.filter(**args)
-
+    course_sections = {}
+    for section in sections:
+        if section.course in course_sections:
+            course_sections[section.course] = course_sections[section.course].append(section)
+        else:
+            course_sections[section.course] = [section]
+    return render_to_response('search/course_results.html', course_sections)
+    '''
     for section in sections:
         course_dict = {}
         course_dict['section_object'] = section
@@ -84,4 +91,4 @@ def initiate_course_search(request):
         course_listing.append(course_dict)
 
     return render_to_response('search/course_results.html', course_listing)
-
+    '''
