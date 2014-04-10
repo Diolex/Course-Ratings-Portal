@@ -25,8 +25,7 @@ def initiate_prof_search(request):
     if request.GET.get('ratings'):
         args['rating_value'] = request.GET.get('ratings')
     if request.GET.get('quality'):
-        args['easiness_value'] = request.GET.get('quality')
-    if request.GET.get('easiness'):
+        args['easiness_value'] = request.GET.get('quality') if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
 
@@ -68,7 +67,7 @@ def initiate_course_search(request):
     course_sections = {}
     for section in sections:
         if section.course in course_sections:
-            course_sections[section.course] = course_sections[section.course].append(section)
+            course_sections[section.course].append(section)
         else:
             course_sections[section.course] = [section]
 
