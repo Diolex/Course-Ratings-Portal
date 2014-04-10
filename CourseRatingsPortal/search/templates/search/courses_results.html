@@ -13,20 +13,20 @@
 <table class="table table-condensed">
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Course Name</th>
+      <th>Course ID</th>
       <th>Department</th>
-      <th>Rating</th>
-      <th>Easiness</th>
-      <th>University</th>
+      <th>Sections</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
-    {% for prof in prof_listing %}
+    {% for course,sections in courses %}
     <tr>
-      <td>prof.name</td>
-      <td>prof.department</td>
-      <td>prof.rating_value</td>
-      <td>prof.easiness_value</td>
+      <td>course.name</td>
+      <td>course.course_id</td>
+      <td>course.department</td>
+      <td>sections|length</td>
       <td>prof.university</td>
     </tr>
     {% endfor %}
