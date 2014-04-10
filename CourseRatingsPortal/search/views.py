@@ -58,7 +58,7 @@ def initiate_course_search(request):
     if request.GET.get('university'):
         args['university__university_name__contains'] = request.GET.get('university')
     if request.GET.get('department'):
-        args['department__contains'] = request.GET.get('department')
+        args['department__dep_name__contains'] = request.GET.get('department')
     courses = Course.objects.filter(**args)
     if request.GET.get('professor'):
 
