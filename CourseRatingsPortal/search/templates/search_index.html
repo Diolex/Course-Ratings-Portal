@@ -10,29 +10,7 @@
   <li><a href="#">Courses</a></li>
   <li class="active">Search</li>
 </ol>
-<h1 class="page-header">Search for Courses</h1>
-<form role="form">
-  <div class="form-group">
-    <label for="courseName">Course Name</label>
-    <input type="text" class="form-control" id="name" placeholder="Enter name">
-  </div>
-  <div class="form-group">
-    <label for="department">Department</label>
-    <input type="text" class="form-control" id="department" placeholder="Department">
-  </div>
-  <div class="form-group">
-    <label for="ratings">Ratings</label>
-    <input type="text" class="form-control" id="ratings" placeholder="Ratings">
-  </div>
-  <div class="form-group">
-    <label for="quality">Quality</label>
-    <input type="text" class="form-control" id="quality" placeholder="Quality">
-  </div>
-  <div class="form-group">
-    <label for="easiness">Easiness</label>
-    <input type="text" class="form-control" id="easiness" placeholder="Easiness">
-  </div>
-  
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+<h1 class="page-header">Choose your search</h1>
+<a href="{% url 'courses' %}" class="btn btn-primary btn-lg active" role="button">Courses</a>
+<a href="{% url 'professors' %}" class="btn btn-default btn-lg active" role="button">Professors</a>
 {% endblock %}
