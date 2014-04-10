@@ -4,16 +4,16 @@ from courses.models import Course, Section, Professor
 def index(request):
     if request.method == 'GET':
         print("GET called")
-    return render_to_response('search_index.html')
+    return render_to_response('search/search_index.html')
 
 def search_prof(request):
-    return render_to_response('search_prof.html')
+    return render_to_response('search/search_prof.html')
 
 def search_course(request):
-    return render_to_response('search_course.html')
+    return render_to_response('search/search_course.html')
 
 def search_sections(request):
-    return render_to_response('search_sections.html')
+    return render_to_response('search/search_sections.html')
 
 def initiate_prof_search(request):
     prof_listing = []
@@ -41,7 +41,7 @@ def initiate_prof_search(request):
         prof_dict['department']=[ x.dep_name for x in professor.department.all()]
         prof_listing.append(prof_dict)
 
-    return render_to_response('professor_results.html',prof_listing)
+    return render_to_response('search/professor_results.html',prof_listing)
 
 def initiate_course_search(request):
     course_listing = []
@@ -85,5 +85,5 @@ def initiate_course_search(request):
 
         course_listing.append(course_dict)
 
-    return render_to_response('course_results.html', course_listing)
+    return render_to_response('search/course_results.html', course_listing)
 
