@@ -1,5 +1,6 @@
 from django.shortcuts import render_to_response
 from courses.models import Course, Section, Professor
+from django.db.models import Count
 # Create your views here.
 def index(request):
     if request.method == 'GET':
@@ -52,27 +53,20 @@ def initiate_course_search(request):
     course_listing = []
     args={}
     if request.GET.get('name'):
-        args['course__course_name__contains']=request.GET.get('name')
+        args['course_name__contains']=request.GET.get('name')
     if request.GET.get('course_id'):
-        args['course__course_id']=request.GET.get('course_id')
+        args['course_id']=request.GET.get('course_id')
     if request.GET.get('registration_code'):
         args['registration_code']=request.GET.get('registration_code')
     if request.GET.get('university'):
-        args['course__university__university_name__contains'] = request.GET.get('university')
+        args['university__university_name__contains'] = request.GET.get('university')
     if request.GET.get('department'):
-        args['course__department__contains'] = request.GET.get('department')
+        args['department__contains'] = request.GET.get('department')
     if request.GET.get('professor'):
         args['professor__name__contains'] = request.GET.get('professor')
 
-    sections = Section.objects.filter(**args)
-    course_sections = {}
-    for section in sections:
-        if section.course in course_sections:
-            course_sections[section.course].append(section)
-        else:
-            course_sections[section.course] = [section]
-
-    dict = {"courses" : course_sections}
+    courses = Course.objects.filter(**args).annotate(section_cout = Count('section'))
+    dict = {"courses" : courses}
     return render_to_response('search/courses_results.html', dict)
     '''
     for section in sections:
