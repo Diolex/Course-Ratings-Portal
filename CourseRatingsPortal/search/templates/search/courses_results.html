@@ -1,0 +1,35 @@
+{% extends "search/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Courses{% endblock %}
+{% block nav2 %}class="active"{% endblock %}
+
+{% block content %}
+<ol class="breadcrumb">
+  <li><a href="{% url 'index' %}">Home</a></li>
+  <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
+</ol>
+<h1 class="page-header">Results</h1>
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Department</th>
+      <th>Rating</th>
+      <th>Easiness</th>
+      <th>University</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for prof in prof_listing %}
+    <tr>
+      <td>prof.name</td>
+      <td>prof.department</td>
+      <td>prof.rating_value</td>
+      <td>prof.easiness_value</td>
+      <td>prof.university</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
