@@ -32,7 +32,7 @@ class Professor(models.Model):
     university = models.ForeignKey(University)
     rating_value = models.FloatField(default=0)
     easiness_value = models.FloatField(default=0)
-    department = models.ManyToManyField(Department, related_name='prof_dept')
+    department = models.ManyToManyField(Department)#, related_name='prof_dept')
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)

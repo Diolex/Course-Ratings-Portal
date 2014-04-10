@@ -45,7 +45,7 @@ def initiate_prof_search(request):
         prof_dict['easiness_value']=professor.easiness_value
         prof_dict['department']=[ x.dep_name for x in professor.department.all()]
         prof_listing.append(prof_dict)
-    ''' 
+    '''
     return render_to_response('search/professor_results.html',dict)
 
 def initiate_course_search(request):

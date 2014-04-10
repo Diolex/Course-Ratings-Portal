@@ -120,6 +120,8 @@ class Command(NoArgsCommand):
                 total[2]+=1
             else:
                 profs.extend(p_set)
+        for prof in profs:
+            prof.department.add(department)
         for prof in profs2:
             prof.department.add(department)
 
