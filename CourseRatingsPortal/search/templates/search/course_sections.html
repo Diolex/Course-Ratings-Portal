@@ -7,7 +7,8 @@
 {% block content %}
 <ol class="breadcrumb">
   <li><a href="{% url 'index' %}">Home</a></li>
-  <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
+  <li><a href="{% url 'courses' %}">Courses</a></li>
+  <li class="active">Sections</li>
 </ol>
 <h1 class="page-header">{{ courses.course_name }} has {{ sections|length }} Sections</h1>
 <table class="table table-condensed table-hover">
