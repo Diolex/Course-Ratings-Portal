@@ -21,7 +21,8 @@
     </tr>
   </thead>
   <tbody>
-    {% for prof in prof_listing %}
+    {{ professors|length }}
+    {% for prof in professors %}
     <tr>
       <td>prof.name</td>
       <td>prof.department</td>
