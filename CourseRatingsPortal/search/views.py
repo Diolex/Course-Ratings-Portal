@@ -29,6 +29,7 @@ def initiate_prof_search(request):
     if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
+    '''
     for professor in professors:
         prof_dict = {}
         prof_dict['professor_object'] = professor
@@ -38,8 +39,8 @@ def initiate_prof_search(request):
         prof_dict['easiness_value']=professor.easiness_value
         prof_dict['department']=[ x.dep_name for x in professor.department.all()]
         prof_listing.append(prof_dict)
-
-    return render_to_response('search/professor_results.html',prof_listing)
+    ''' 
+    return render_to_response('search/professor_results.html',professors)
 
 def initiate_course_search(request):
     course_listing = []
