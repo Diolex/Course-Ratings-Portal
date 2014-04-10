@@ -34,8 +34,8 @@ def initiate_prof_search(request):
     for prof in professors:
         profs.append(prof)
     print("This many: " + str(len(profs)))
-    
-    dict = {"professors": profs}
+    print(profs)
+    var_dict = {"professors": profs}
     '''
     for professor in professors:
         prof_dict = {}
@@ -46,8 +46,8 @@ def initiate_prof_search(request):
         prof_dict['easiness_value']=professor.easiness_value
         prof_dict['department']=[ x.dep_name for x in professor.department.all()]
         prof_listing.append(prof_dict)
-    ''' 
-    return render_to_response('search/professor_results.html',dict)
+    '''
+    return render_to_response('search/professor_results.html',var_dict)
 
 def initiate_course_search(request):
     course_listing = []

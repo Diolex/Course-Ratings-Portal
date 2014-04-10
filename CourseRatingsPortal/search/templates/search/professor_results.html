@@ -24,11 +24,11 @@
     {{ professors|length }}
     {% for prof in professors %}
     <tr>
-      <td>prof.name</td>
-      <td>prof.department</td>
-      <td>prof.rating_value</td>
-      <td>prof.easiness_value</td>
-      <td>prof.university</td>
+        <td>{{prof.name}}</td>
+        <td>{{prof.department.all|join:", "}}</td>
+        <td>{{prof.rating_value}}</td>
+        <td>{{prof.easiness_value}}</td>
+        <td>{{prof.university}}</td>
     </tr>
     {% endfor %}
   </tbody>
