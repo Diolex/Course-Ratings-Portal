@@ -6,9 +6,8 @@
 
 {% block content %}
 <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Professors</a></li>
-  <li class="active">Search</li>
+  <li><a href="{% url 'index' %}">Home</a></li>
+  <li class="active"><a href="{% url 'proffessors' %}">Professors</a></li>
 </ol>
 <h1 class="page-header">Search for Professors</h1>
 <form role="form">

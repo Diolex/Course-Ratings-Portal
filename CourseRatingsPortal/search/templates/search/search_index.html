@@ -6,9 +6,7 @@
 
 {% block content %}
 <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Courses</a></li>
-  <li class="active">Search</li>
+  <li class="active"><a href="{% url 'index' %}">Home</a></li>
 </ol>
 <h1 class="page-header">Choose your search</h1>
 <a href="{% url 'courses' %}" class="btn btn-primary btn-lg active" role="button">Courses</a>
