@@ -15,6 +15,7 @@
     <tr>
       <th>Course Name</th>
       <th>Course ID</th>
+      <th>University</th>
       <th>Department</th>
       <!--<th>Number of Sections</th>-->
       <th>Sections</th>
@@ -25,10 +26,11 @@
     <tr>
       <td>{{ course.course_name }}</td>
       <td>{{ course.course_id }}</td>
+      <td>{{ course.university.university_name }}</td>
       <td>{{ course.department }}</td>
       <!--<td>{{ course.section_count }}</td>-->
       <td>
-        <a class="btn btn-default btn-xs" href="/course/{{ course.id }}">
+        <a class="btn btn-default btn-xs" href="/search/sections/{{ course.course_id }}">
           View Sections <span class="glyphicon glyphicon-circle-arrow-right"></span>
         </a>
       </td>

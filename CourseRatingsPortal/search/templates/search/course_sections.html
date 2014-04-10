@@ -10,7 +10,7 @@
   <li><a href="{% url 'courses' %}">Courses</a></li>
   <li class="active">Sections</li>
 </ol>
-<h1 class="page-header">{{ courses.course_name }} has {{ sections|length }} Sections</h1>
+<h1 class="page-header">"{{ course.course_name }}" has {{ sections|length }} Sections</h1>
 <table class="table table-condensed table-hover">
   <thead>
     <tr>
@@ -32,7 +32,7 @@
     <tr>
       <td>{{ section.id }}</td>
       <td>{{ section.registration_code }}</td>
-      <td>{{ section.professor }}</td>
+      <td>{{ section.professor.all|join:", " }}</td>
       <td>{{ section.location }}</td>
       <td>{{ section.location2 }}</td>
       <td>{{ section.class_type }}</td>

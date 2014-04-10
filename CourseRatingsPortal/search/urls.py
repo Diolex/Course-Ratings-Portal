@@ -6,7 +6,7 @@ urlpatterns=patterns('',
         url(r'^$', views.index, name='index'),
         url(r'^professor/$', views.search_prof, name='professors'),
         url(r'^course/$', views.search_course, name='courses'),
-        url(r'^course/(?P<course_id>\d)/$', views.course_handler),
+        url(r'^sections/(?P<course_id>[\w+\ +]*)', views.course_handler),
         url(r'^professor/*', views.initiate_prof_search, name='professors_result'),
         url(r'^course/*',views.initiate_course_search, name='courses_result'),
 

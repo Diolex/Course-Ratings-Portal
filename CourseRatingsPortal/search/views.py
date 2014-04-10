@@ -26,14 +26,14 @@ def initiate_prof_search(request):
     if request.GET.get('ratings'):
         args['rating_value'] = request.GET.get('ratings')
     if request.GET.get('quality'):
-        args['easiness_value'] = request.GET.get('quality') 
+        args['easiness_value'] = request.GET.get('quality')
     if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
 
     profs = []
     for prof in professors:
-        profs.append(prof)    
+        profs.append(prof)
     dict = {"professors": profs}
 
     '''
@@ -68,35 +68,10 @@ def initiate_course_search(request):
     courses = Course.objects.filter(**args).annotate(section_cout = Count('section'))
     dict = {"courses" : courses}
     return render_to_response('search/courses_results.html', dict)
-    '''
-    for section in sections:
-        course_dict = {}
-        course_dict['section_object'] = section
-        course_dict['course_object'] = section.course
-        course_dict['name'] = section.course.course_name
-        course_dict['course_id'] = section.course.course_id
-        course_dict['university'] = section.course.university.university_name
-        course_dict['department'] = section.course.department.dep_name
-        course_dict['registration_code'] = section.registration_code
-        course_dict['section_id']=section.section_id
-        course_dict['professor']= [prof.name for prof in section.professor.all()]
-        course_dict['location']=section.location
-        course_dict['location2']=section.location2
-        course_dict['class_type']=section.class_type
-        course_dict['class_type2']=section.class_type2
-        course_dict['time']=section.time
-        course_dict['time2']=section.time2
-        course_dict['days']=section.days
-        course_dict['days2']=section.days2
-        course_dict['date_range']=section.date_range
-        course_dict['date_range2']=section.date_range2
 
-        course_listing.append(course_dict)
-
-    return render_to_response('search/course_results.html', course_listing)
-    '''
 def course_handler(request, course_id):
-    course = Course.objects.get(id=course_id)
-    sections = Section.objects.filter(course=course_id)
-    params = {'course':course, 'sections':sections } 
+    print(course_id)
+    course = Course.objects.get(course_id=course_id)
+    sections = Section.objects.filter(course__course_id=course_id)
+    params = {'course':course, 'sections':sections }
     return render_to_response('search/course_sections.html', params)
