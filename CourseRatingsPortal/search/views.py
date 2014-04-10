@@ -55,15 +55,15 @@ def initiate_course_search(request):
     if request.GET.get('name'):
         args['course_name__contains']=request.GET.get('name')
     if request.GET.get('course_id'):
-        args['course_id']=request.GET.get('course_id')
-    if request.GET.get('registration_code'):
-        args['registration_code']=request.GET.get('registration_code')
+        args['course_id__contains']=request.GET.get('course_id')
+    #if request.GET.get('registration_code'):
+    #    args['registration_code']=request.GET.get('registration_code')
     if request.GET.get('university'):
         args['university__university_name__contains'] = request.GET.get('university')
     if request.GET.get('department'):
         args['department__contains'] = request.GET.get('department')
-    if request.GET.get('professor'):
-        args['professor__name__contains'] = request.GET.get('professor')
+    #if request.GET.get('professor'):
+    #    args['professor__name__contains'] = request.GET.get('professor')
 
     courses = Course.objects.filter(**args).annotate(section_cout = Count('section'))
     dict = {"courses" : courses}
