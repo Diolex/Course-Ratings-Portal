@@ -39,14 +39,15 @@
                     </button>
                     <a class="navbar-brand" href="{% url 'index' %}">Course Ratings Portal</a>
                 </div>
+                <!-- commenting out part of navbar
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li {% block nav1 %}{% endblock %}><a href="#">Dashboard</a></li>
-                        <li {% block nav2 %}{% endblock %}><a href="#">Settings</a></li>
-                        <li {% block nav3 %}{% endblock %}><a href="#">Profile</a></li>
-                        <li {% block nav4 %}{% endblock %}><a href="#">Help</a></li>
+                        <li {% block navbar1 %}{% endblock %}><a href="#">Dashboard</a></li>
+                        <li {% block navbar2 %}{% endblock %}><a href="#">Settings</a></li>
+                        <li {% block navbar3 %}{% endblock %}><a href="#">Profile</a></li>
+                        <li {% block navbar4 %}{% endblock %}><a href="#">Help</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -54,13 +55,13 @@
             <div class="row">
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
-                        <li class="active"><a href="#">Professors</a></li>
-                        <li><a href="#">Classes</a></li>
-                        <li><a href="#">Sections</a></li>
+                        <li {% block nav1 %}{% endblock %}><a href="{% url 'professors' %}">Professors</a></li>
+                        <li {% block nav2 %}{% endblock %}><a href="{% url 'courses' %}">Courses</a></li>
+                        <li {% block nav3 %}{% endblock %}><a href="#">Sections</a></li>
 
                     </ul>
                     <ul class="nav nav-sidebar">
-                        <li><a href="">My Classes</a></li>
+                        <li><a href="">My Courses</a></li>
                     </ul>
 
                 </div>
