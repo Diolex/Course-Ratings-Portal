@@ -18,15 +18,15 @@ def search_sections(request):
 def initiate_prof_search(request):
     prof_listing = []
     args={}
-    if request.GET.get('name') is not '':
+    if request.GET.get('name'):
         args['name__contains']= request.GET.get('name')
-    if request.GET.get('department') is not '':
+    if request.GET.get('department'):
         args['department__dep_name__contains']= request.GET.get('department')
-    if request.GET.get('ratings') is not '':
+    if request.GET.get('ratings'):
         args['rating_value'] = request.GET.get('ratings')
-    if request.GET.get('quality') is not '':
+    if request.GET.get('quality'):
         args['easiness_value'] = request.GET.get('quality')
-    if request.GET.get('easiness') is not '':
+    if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
     for professor in professors:
