@@ -5,5 +5,3 @@ class Search(models.Model):
     user = models.ForeignKey(User)
     search_parameters = models.CharField(max_length=150)
 
-def register_search(args):
-    print("registering search")

@@ -3,8 +3,6 @@ from courses.models import Course, Section, Professor
 from django.db.models import Count
 # Create your views here.
 def index(request):
-    if request.method == 'GET':
-        print("GET called")
     return render_to_response('search/search_index.html')
 
 def search_prof(request):
@@ -70,7 +68,6 @@ def initiate_course_search(request):
     return render_to_response('search/courses_results.html', dict)
 
 def course_handler(request, course_id):
-    print(course_id)
     course = Course.objects.get(course_id=course_id)
     sections = Section.objects.filter(course__course_id=course_id)
     params = {'course':course, 'sections':sections }
