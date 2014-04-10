@@ -32,9 +32,7 @@ def initiate_prof_search(request):
     for professor in professors:
         prof_dict = {}
         prof_dict['professor_object'] = professor
-        prof_dict['first_name']= professor.first_name
-        prof_dict['middle_name']=professor.middle_name
-        prof_dict['last_name']=professor.last_name
+        prof_dict['name']=professor.name
         prof_dict['university']=professor.university.university_name
         prof_dict['rating_value']=professor.rating_value
         prof_dict['easiness_value']=professor.easiness_value
