@@ -23,11 +23,10 @@
   <tbody>
     {% for course,sections in courses %}
     <tr>
-      <td>course.name</td>
-      <td>course.course_id</td>
-      <td>course.department</td>
-      <td>sections|length</td>
-      <td>prof.university</td>
+      <td>{{ course.name }}</td>
+      <td>{{ course.course_id }}</td>
+      <td>{{ course.department }}</td>
+      <td>{{ sections|length }}</td>
     </tr>
     {% endfor %}
   </tbody>
