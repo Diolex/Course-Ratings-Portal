@@ -95,3 +95,8 @@ def initiate_course_search(request):
 
     return render_to_response('search/course_results.html', course_listing)
     '''
+def course_handler(request, course_id):
+    course = Course.objects.get(id=course_id)
+    sections = Section.objects.filter(course=course_id)
+    params = {'course':course, 'sections':sections } 
+    return render_to_response('search/course_sections.html', params)
