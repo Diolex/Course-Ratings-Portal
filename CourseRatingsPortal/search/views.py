@@ -25,7 +25,8 @@ def initiate_prof_search(request):
     if request.GET.get('ratings'):
         args['rating_value'] = request.GET.get('ratings')
     if request.GET.get('quality'):
-        args['easiness_value'] = request.GET.get('quality') if request.GET.get('easiness'):
+        args['easiness_value'] = request.GET.get('quality') 
+    if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
 
