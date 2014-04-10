@@ -29,13 +29,12 @@ def initiate_prof_search(request):
     if request.GET.get('easiness'):
         args['easiness'] = request.GET.get('easiness')
     professors = Professor.objects.filter(**args)
-    print("This many: " + str(len(professors)))
+
     profs = []
     for prof in professors:
-        profs.append(prof)
-    print("This many: " + str(len(profs)))
-    
+        profs.append(prof)    
     dict = {"professors": profs}
+
     '''
     for professor in professors:
         prof_dict = {}
@@ -72,7 +71,9 @@ def initiate_course_search(request):
             course_sections[section.course] = course_sections[section.course].append(section)
         else:
             course_sections[section.course] = [section]
-    return render_to_response('search/course_results.html', course_sections)
+
+    dict = {"courses" : course_sections}
+    return render_to_response('search/course_results.html', dict)
     '''
     for section in sections:
         course_dict = {}

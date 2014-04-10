@@ -1,13 +1,13 @@
 {% extends "search/base.html" %}
 {% load staticfiles %}
 
-{% block title %}Courses{% endblock %}
+{% block title %}Professors{% endblock %}
 {% block nav2 %}class="active"{% endblock %}
 
 {% block content %}
 <ol class="breadcrumb">
   <li><a href="{% url 'index' %}">Home</a></li>
-  <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
+  <li class="active"><a href="{% url 'professors' %}">Professors</a></li>
 </ol>
 <h1 class="page-header">Results</h1>
 <table class="table table-condensed">
@@ -24,11 +24,11 @@
     {{ professors|length }}
     {% for prof in professors %}
     <tr>
-      <td>prof.name</td>
-      <td>prof.department</td>
-      <td>prof.rating_value</td>
-      <td>prof.easiness_value</td>
-      <td>prof.university</td>
+      <td>{{ prof.name }}</td>
+      <td>{{ prof.prof_dept.dep_name }}</td>
+      <td>{{ prof.rating_value }}</td>
+      <td>{{ prof.easiness_value }}</td>
+      <td>{{ prof.university }}</td>
     </tr>
     {% endfor %}
   </tbody>
