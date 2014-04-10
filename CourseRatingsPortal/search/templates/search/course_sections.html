@@ -1,0 +1,47 @@
+{% extends "search/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Courses{% endblock %}
+{% block nav2 %}class="active"{% endblock %}
+
+{% block content %}
+<ol class="breadcrumb">
+  <li><a href="{% url 'index' %}">Home</a></li>
+  <li class="active"><a href="{% url 'courses' %}">Courses</a></li>
+</ol>
+<h1 class="page-header">{{ courses.course_name }} has {{ sections|length }} Sections</h1>
+<table class="table table-condensed table-hover">
+  <thead>
+    <tr>
+      <th>Section ID</th>
+      <th>Registration Code</th>
+      <th>Professor</th>
+      <th>Location 1</th>
+      <th>Location 2</th>
+      <th>Class Type 1</th>
+      <th>Class Type 2</th>
+      <th>Time 1</th>
+      <th>Time 2</th>
+      <th>Days 1</th>
+      <th>Days 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for section in sections %}
+    <tr>
+      <td>{{ section.id }}</td>
+      <td>{{ section.registration_code }}</td>
+      <td>{{ section.professor }}</td>
+      <td>{{ section.location }}</td>
+      <td>{{ section.location2 }}</td>
+      <td>{{ section.class_type }}</td>
+      <td>{{ section.class_type2 }}</td>
+      <td>{{ section.time }}</td>
+      <td>{{ section.time2 }}</td>
+      <td>{{ section.days }}</td>
+      <td>{{ section.days2 }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
