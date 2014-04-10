@@ -16,17 +16,22 @@
       <th>Course Name</th>
       <th>Course ID</th>
       <th>Department</th>
-      <th>Sections</th>
-      <th></th>
+      <th>Number of Sections</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody>
-    {% for course,sections in courses %}
+    {% for course in courses %}
     <tr>
       <td>{{ course.name }}</td>
       <td>{{ course.course_id }}</td>
       <td>{{ course.department }}</td>
-      <td>{{ sections|length }}</td>
+      <td>{{ course.section_count }}</td>
+      <td>
+        <button type="button" class="btn btn-default btn-xs" href="/course/{{ course.name }}">
+          <span class="glyphicon glyphicon-circle-arrow-right"></span> View Sections
+        </button>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
