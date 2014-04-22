@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, url
 from search import views
+from courses import views as course_views
 from django.contrib import admin
 admin.autodiscover()
 urlpatterns=patterns('',
@@ -8,6 +9,12 @@ urlpatterns=patterns('',
         url(r'^course/$', views.search_course, name='courses'),
         url(r'^sections/(?P<course_id>[\w+\ +]*)', views.course_handler),
         url(r'^professor/*', views.initiate_prof_search, name='professors_result'),
-        url(r'^course/*',views.initiate_course_search, name='courses_result'),
+        url(r'^course*',views.initiate_course_search, name='courses_result'),
+        url(r'^create/professor$', course_views.ProfessorCreate.as_view(), name='professor_create'), 
+        url(r'^create/course$', course_views.CourseCreate.as_view(), name='course_create'), 
+        url(r'^create/university$', course_views.UniversityCreate.as_view(), name='university_create'), 
+        url(r'^create/section$', course_views.SectionCreate.as_view(), name='section_create'), 
+        url(r'^create/rating$', course_views.RatingCreate.as_view(), name='rating_create'), 
+        url(r'^create/department$', course_views.DepartmentCreate.as_view(), name='department_create'), 
 
 )
