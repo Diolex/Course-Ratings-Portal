@@ -23,34 +23,31 @@ def get_professor(request, university, professor):
 class UniversityCreate(CreateView):
     model = University
     fields = ['university_name']
+    success_url = "/search/"
 
 class DepartmentCreate(CreateView):
     model = Department
     fields = ['dep_name']
+    success_url = "/search/"
 
 class ProfessorCreate(CreateView):
     model = Professor
     fields = ['name', 'rating_value', 'university', 'department']
+    success_url = "/search/"
 
 class CourseCreate(CreateView):
     model = Course
     fields = ['course_id', 'course_name', 'university', 'department']
+    success_url = "/search/"
 
 class SectionCreate(CreateView):
     model = Section
     fields = ['course', 'section_id', 'registration_code', 'professor', 'location', 'location2',
               'class_type', 'class_type2', 'time', 'time2', 'days', 'days2', 'date_range',
               'date_range2', 'schedule_type', 'schedule_type2']
-
-class RatingForm(ModelForm):
-    class Meta:
-        model = Rating
-        exclude = ('course','professor')
+    success_url = "/search/"
 
 class RatingCreate(CreateView):
-    form_class = RatingForm
     model = Rating
     fields = ['course', 'professor', 'rating_text', 'rating_quality', 'rating_easiness', 'counted']
-    def form_valid(self, form):
-        form.instance.created_by = self.request.user
-        return super(RatingCreate, self).form_valid(form)
+    success_url = "/search/"
