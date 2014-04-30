@@ -45,7 +45,7 @@ class SectionCreate(CreateView):
 class RatingForm(ModelForm):
     class Meta:
         model = Rating
-        exclude = ('course','professor')
+        exclude = ('course','counted','date_created','date_modified')
 
 class RatingCreate(CreateView):
     form_class = RatingForm

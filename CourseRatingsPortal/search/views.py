@@ -1,5 +1,5 @@
 from django.shortcuts import render_to_response
-from courses.models import Course, Section, Professor
+from courses.models import Course, Section, Professor, Rating
 from django.db.models import Count
 # Create your views here.
 def index(request):
@@ -32,7 +32,10 @@ def initiate_prof_search(request):
     profs = []
     for prof in professors:
         profs.append(prof)
+
     dict = {"professors": profs}
+
+
 
     '''
     for professor in professors:
