@@ -57,13 +57,7 @@
                     <ul class="nav nav-sidebar">
                         <li {% block nav1 %}{% endblock %}><a href="{% url 'professors' %}">Professors</a></li>
                         <li {% block nav2 %}{% endblock %}><a href="{% url 'courses' %}">Courses</a></li>
-                        
-
                     </ul>
-                    <ul class="nav nav-sidebar">
-                        <li><a href="">My Courses</a></li>
-                    </ul>
-
                 </div>
                 <div id="content" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                   {% block content %}{% endblock %}
