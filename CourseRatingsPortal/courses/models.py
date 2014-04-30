@@ -87,7 +87,7 @@ class Section(models.Model):
 
 class Rating(models.Model):
     course = models.ForeignKey(Course, blank=True, null=True)
-    professor = models.ForeignKey(Professor, blank=True, null=True)
+    professor = models.ForeignKey(Professor)
     user = models.ForeignKey(User, blank=True, null=True)
     rating_text = models.CharField(max_length = 500)
     rating_quality = models.FloatField(default=0)
@@ -96,6 +96,22 @@ class Rating(models.Model):
 
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_modified = models.DateTimeField(default=timezone.now, blank=True)
+
+    def save(self, *args, **kwargs):
+        if not self.pk:
+            ratings = Rating.objects.filter(professor=self.professor).count()
+            if ratings > 0:
+                self.professor.rating_value = (
+                        (self.professor.rating_value*ratings)
+                        +self.rating_quality)/(ratings+1)
+                self.professor.easiness_value = (
+                        (self.professor.easiness_value*ratings)
+                        +self.rating_easiness)/(ratings+1)
+            else:
+                self.professor.rating_value = self.rating_quality
+                self.professor.easiness_value = self.rating_easiness
+            self.professor.save()
+        super(Rating, self).save(*args, **kwargs)
 
     class Meta:
         ordering=['date_modified']

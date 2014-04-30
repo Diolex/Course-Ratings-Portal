@@ -47,6 +47,11 @@ class SectionCreate(CreateView):
               'date_range2', 'schedule_type', 'schedule_type2']
     success_url = "/search/"
 
+class RatingForm(ModelForm):
+    class Meta:
+        model = Rating
+        exclude = ('course','counted','date_created','date_modified')
+
 class RatingCreate(CreateView):
     model = Rating
     fields = ['course', 'professor', 'rating_text', 'rating_quality', 'rating_easiness', 'counted']
