@@ -1,0 +1,6826 @@
+[
+  {
+    "Name":"Abu-Nabaa, Hisham",
+    "Quality":"",
+    "Department":"Industrial Engineering",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Adams, John",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":2.8,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Adams, Mark",
+    "Quality":"Average Quality",
+    "Department":"Business",
+    "Ratings":11,
+    "Quality2":3.4,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Aghazadeh, Sanaz",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":6,
+    "Quality2":1.3,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Ahmet, Joshua",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Akca, Zeliha",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Akeela, Rami",
+    "Quality":"Good Quality",
+    "Department":"Computer Engineering",
+    "Ratings":22,
+    "Quality2":4.1,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Aktug, Erdem",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":3,
+    "Quality2":3.2,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Albright, Michael",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":4.8,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Albulescu, Eugene",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":17,
+    "Quality2":4.6,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Aldrich, Abigail",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":5,
+    "Quality2":4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Alhadeff, Jack",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":15,
+    "Quality2":4.6,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Ambar, Saladin",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":6,
+    "Quality2":4.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Amidon, David",
+    "Quality":"Good Quality",
+    "Department":"Social Science",
+    "Ratings":38,
+    "Quality2":4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Anastasio, David",
+    "Quality":"Good Quality",
+    "Department":"Geology",
+    "Ratings":12,
+    "Quality2":3.9,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Anaya, Hugo R",
+    "Quality":"Poor Quality",
+    "Department":"Sociology",
+    "Ratings":2,
+    "Quality2":1.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Anderson, Anne Marie",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":36,
+    "Quality2":2.7,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Angstadt, David",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":7,
+    "Quality2":4.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Argibay, Diego",
+    "Quality":"Good Quality",
+    "Department":"Spanish",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Armstrong, Marie-Sophie",
+    "Quality":"Good Quality",
+    "Department":"French",
+    "Ratings":17,
+    "Quality2":4.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Arnold, Mark",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":1.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Aronson, J. Richard",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":54,
+    "Quality2":3.6,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Arrington, Catherine",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":18,
+    "Quality2":2.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Atkinson, Wes",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":37,
+    "Quality2":4.6,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Austin, Kelly",
+    "Quality":"",
+    "Department":"Sociology",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Bachochin, Catherine",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":3,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Bae, Youngsoo",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":4,
+    "Quality2":2.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Baird, Henry",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":6,
+    "Quality2":4.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Baker, Breeanne",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":3,
+    "Quality2":1.7,
+    "Easiness":1
+  },
+  {
+    "Name":"Bandyopadhyay, Soutir",
+    "Quality":"Average Quality",
+    "Department":"Biological Sciences",
+    "Ratings":3,
+    "Quality2":2.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Barber, Margaret",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":6,
+    "Quality2":2.9,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Barkey, Henri",
+    "Quality":"Average Quality",
+    "Department":"International Studies",
+    "Ratings":27,
+    "Quality2":3.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Barrett, Sue",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":10,
+    "Quality2":3.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Barsness, Richard",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Barton, Iain",
+    "Quality":"Good Quality",
+    "Department":"Geology",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Batchelor, Nicole",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":55,
+    "Quality2":4.2,
+    "Easiness":1.5
+  },
+  {
+    "Name":"Bayak, Daniel",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":63,
+    "Quality2":3.5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Baylor, Michael",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":16,
+    "Quality2":4,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Bean, Barry",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":9,
+    "Quality2":4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Bearn, Gordon",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":22,
+    "Quality2":4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Bebout, Gray",
+    "Quality":"Good Quality",
+    "Department":"Geology",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Becker-Olson, Karen",
+    "Quality":"Poor Quality",
+    "Department":"Marketing",
+    "Ratings":13,
+    "Quality2":2.3,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Beedle, Helen",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Behe, Michael",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":9,
+    "Quality2":3.6,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Beidler, Peter",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":21,
+    "Quality2":3.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Belkin, Liuba",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":5
+  },
+  {
+    "Name":"Belony, Paul",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":3
+  },
+  {
+    "Name":"Benedict, Louis",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Benscoter, Arlan",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":2
+  },
+  {
+    "Name":"Bentz, Adam",
+    "Quality":"Poor Quality",
+    "Department":"History",
+    "Ratings":3,
+    "Quality2":2.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Berdichevsky, Eugene",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Berfield, Kelly",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":3,
+    "Quality2":4.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Berger, Rosemary",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":12,
+    "Quality2":2.2,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Berk, Jeanne",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":15,
+    "Quality2":3.8,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Berrada, Taieb",
+    "Quality":"Average Quality",
+    "Department":"French",
+    "Ratings":3,
+    "Quality2":2.8,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Berti, Claudio",
+    "Quality":"Good Quality",
+    "Department":"Earth Science",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Best, Bill",
+    "Quality":"Good Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":12,
+    "Quality2":4.6,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Biaggio, Ivan",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":8,
+    "Quality2":3.4,
+    "Easiness":2
+  },
+  {
+    "Name":"Bickhard, Mark",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":7,
+    "Quality2":3.9,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Bishop, Mj",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":7,
+    "Quality2":4.9,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Blank, Glenn",
+    "Quality":"Poor Quality",
+    "Department":"Computer Science",
+    "Ratings":24,
+    "Quality2":1.3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Blay, Yaba",
+    "Quality":"Good Quality",
+    "Department":"African Studies",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Bleach, Anthony",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":10,
+    "Quality2":3.2,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Blythe, Phillip",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":9,
+    "Quality2":4.8,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Bodzin, Alec",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":12,
+    "Quality2":2.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Bohan, Christopher",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Bohlsen, Theresa",
+    "Quality":"Good Quality",
+    "Department":"Languages",
+    "Ratings":20,
+    "Quality2":4.1,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Booth, Robert",
+    "Quality":"Good Quality",
+    "Department":"Environmental Science",
+    "Ratings":4,
+    "Quality2":5,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Boothe, Berrisford",
+    "Quality":"Good Quality",
+    "Department":"Fine Arts",
+    "Ratings":7,
+    "Quality2":4.2,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Borse, Garold",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":4,
+    "Quality2":3.4,
+    "Easiness":2
+  },
+  {
+    "Name":"Boyle, Diane",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":20,
+    "Quality2":4.8,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Brams, Johanna",
+    "Quality":"Good Quality",
+    "Department":"Communication",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Brandone, Amanda",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":4,
+    "Quality2":2.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Brandt, Dick",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Brandt, Sandra",
+    "Quality":"Average Quality",
+    "Department":"French",
+    "Ratings":3,
+    "Quality2":3.3,
+    "Easiness":2
+  },
+  {
+    "Name":"Bressan Walther, Deborah",
+    "Quality":"Average Quality",
+    "Department":"Biological Sciences",
+    "Ratings":4,
+    "Quality2":2.5,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Briggs, Candace",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":19,
+    "Quality2":4,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Briggs, Chad",
+    "Quality":"Good Quality",
+    "Department":"Environmental Studies",
+    "Ratings":5,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Brockman, Paul",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Brodish, Jay",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":6,
+    "Quality2":3.9,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Bross, Addison",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":12,
+    "Quality2":2.9,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Brown, Derick",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Brown, Jill",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":6,
+    "Quality2":3.8,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Brumitt, Eileen",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":2.2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Buckley, Martina",
+    "Quality":"Good Quality",
+    "Department":"German",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Buehrle, Charlie",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Buell, Stephen",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":39,
+    "Quality2":4.4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Bulman, William J",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":1
+  },
+  {
+    "Name":"Bumgardner, Jacob",
+    "Quality":"Average Quality",
+    "Department":"Materials Science",
+    "Ratings":2,
+    "Quality2":2.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Burger, R. Michael",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":4,
+    "Quality2":4.6,
+    "Easiness":1.2
+  },
+  {
+    "Name":"Burke, Christopher",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Busch, Arthur",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":6,
+    "Quality2":2.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Bush, Matthew",
+    "Quality":"Good Quality",
+    "Department":"Modern Languages",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Butler, Larry",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":10,
+    "Quality2":2.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Bykhovskaia, Maria",
+    "Quality":"Poor Quality",
+    "Department":"Biology",
+    "Ratings":3,
+    "Quality2":2,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Calderone, Jessica",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":5,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Calhoon, Marybeth",
+    "Quality":"Poor Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":1.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Campbell, Jeffrey",
+    "Quality":"Average Quality",
+    "Department":"Chemistry",
+    "Ratings":3,
+    "Quality2":3,
+    "Easiness":2
+  },
+  {
+    "Name":"Cao, Huai-Dong",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":13,
+    "Quality2":3.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Capotosto, Chris",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Caram, Hugo",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":23,
+    "Quality2":3.2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Cardillo, James",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Cargill, G. Slade",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Carrell-Smith, Kimberley",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":11,
+    "Quality2":4.2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Carrion, Allen",
+    "Quality":"Poor Quality",
+    "Department":"Finance",
+    "Ratings":4,
+    "Quality2":1.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Carter, Benjamin",
+    "Quality":"Good Quality",
+    "Department":"Anthropology",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Carter, Franklin",
+    "Quality":"Poor Quality",
+    "Department":"Marketing",
+    "Ratings":3,
+    "Quality2":2.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Cartwright, Katie",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4.6,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Caskie, Grace",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":1
+  },
+  {
+    "Name":"Cassimeris, Lynne",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":9,
+    "Quality2":3.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Cates, Ward",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":12,
+    "Quality2":2.6,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Cereghetti, Paola M",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":2,
+    "Quality2":3.8,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Ceron-Anaya, Hugo",
+    "Quality":"",
+    "Department":"Sociology",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Chabut, Marie-Helene",
+    "Quality":"Good Quality",
+    "Department":"Languages",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Chan, Helen",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":8,
+    "Quality2":3.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Chandrasekaran, Deepa",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":6,
+    "Quality2":3.6,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Chatzidimitriou, Ioanna",
+    "Quality":"Good Quality",
+    "Department":"French",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":3
+  },
+  {
+    "Name":"Cheb, Qiang",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Check, Henry",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":5,
+    "Quality2":1.9,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Chen, Brian Y",
+    "Quality":"Good Quality",
+    "Department":"Continuing Education",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Cheng, Liang",
+    "Quality":"Poor Quality",
+    "Department":"Computer Science",
+    "Ratings":8,
+    "Quality2":1.4,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Cheng, Xuanhong",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":3,
+    "Quality2":3.7,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Chew, Meng-Sang",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":20,
+    "Quality2":3.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Chinta, Gautam",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":3,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Chou, Paul",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":8,
+    "Quality2":4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Chou, Shin-Yi",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":12,
+    "Quality2":3.2,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Chuah, Mooi",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":18,
+    "Quality2":3.6,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Chupa, Anna",
+    "Quality":"Poor Quality",
+    "Department":"Design",
+    "Ratings":11,
+    "Quality2":1.8,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Clark-Gareca, Beth",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":4.3,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Clemens, Coleen",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":3.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Coenen, Craig",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":6,
+    "Quality2":4.9,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Cole, Christine",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":5
+  },
+  {
+    "Name":"Coll, Vincent",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":30,
+    "Quality2":4.8,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Collins, Karen",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":14,
+    "Quality2":4.7,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Colon, Frank",
+    "Quality":"Poor Quality",
+    "Department":"Political Science",
+    "Ratings":18,
+    "Quality2":2.4,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Conus, Daniel",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":10,
+    "Quality2":3.5,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Cook, Connie",
+    "Quality":"Good Quality",
+    "Department":"Languages",
+    "Ratings":12,
+    "Quality2":4.2,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Cooper, Gail",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":6,
+    "Quality2":3.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Costa, Pat",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":6,
+    "Quality2":3.8,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Costea, Dana",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":5,
+    "Quality2":3.9,
+    "Easiness":4
+  },
+  {
+    "Name":"Crane, Ronald",
+    "Quality":"",
+    "Department":"Computer Science",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Crassons, Kate",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":12,
+    "Quality2":4.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Cressman, Brad",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Crisafulli, Anthony",
+    "Quality":"Good Quality",
+    "Department":"Design",
+    "Ratings":12,
+    "Quality2":4.4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Cundall, Dave",
+    "Quality":"Poor Quality",
+    "Department":"Biology",
+    "Ratings":16,
+    "Quality2":2.3,
+    "Easiness":1.2
+  },
+  {
+    "Name":"D'Arcy, John",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":22,
+    "Quality2":2.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Davis, Don",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":16,
+    "Quality2":3.5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Davis, Frank",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":13,
+    "Quality2":4.6,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Davison, Brian",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":10,
+    "Quality2":3.8,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Deal, Andrew",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Dearden, James",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":33,
+    "Quality2":3.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Decker, Richard",
+    "Quality":"Poor Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":13,
+    "Quality2":1.3,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Dee, Gabby",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":4,
+    "Quality2":5,
+    "Easiness":4.8
+  },
+  {
+    "Name":"Deegan, Michelle",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Deilly, Marybeth",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":36,
+    "Quality2":2.5,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Delalande, Yohann",
+    "Quality":"Average Quality",
+    "Department":"Languages",
+    "Ratings":4,
+    "Quality2":3.1,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Deleo, Gary",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":35,
+    "Quality2":4.4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Delph, Terry",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":11,
+    "Quality2":4.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Dench, Linda",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":3,
+    "Quality2":4,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Deo, Nandini",
+    "Quality":"Average Quality",
+    "Department":"Political Science",
+    "Ratings":11,
+    "Quality2":3.4,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Derham, Carol",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":5,
+    "Quality2":5,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Derham, Carol",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":5,
+    "Quality2":5,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Desris, Jenifer",
+    "Quality":"Good Quality",
+    "Department":"French",
+    "Ratings":3,
+    "Quality2":4.7,
+    "Easiness":4
+  },
+  {
+    "Name":"Desris, Jenifer",
+    "Quality":"Good Quality",
+    "Department":"French",
+    "Ratings":3,
+    "Quality2":4.7,
+    "Easiness":4
+  },
+  {
+    "Name":"Diamant, Barbara",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":11,
+    "Quality2":4.3,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Diamant, Barbara",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":11,
+    "Quality2":4.3,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Diedwardo, Maryanne",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":10,
+    "Quality2":2.9,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Diedwardo, Maryanne",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":10,
+    "Quality2":2.9,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Dierolf, Volkmar",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":5,
+    "Quality2":2.9,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Dierolf, Volkmar",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":5,
+    "Quality2":2.9,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Diggs, David",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":13,
+    "Quality2":4.5,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Diggs, David",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":13,
+    "Quality2":4.5,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Dillon, Robin",
+    "Quality":"Average Quality",
+    "Department":"Philosophy",
+    "Ratings":21,
+    "Quality2":3.1,
+    "Easiness":2
+  },
+  {
+    "Name":"Dillon, Robin",
+    "Quality":"Average Quality",
+    "Department":"Philosophy",
+    "Ratings":21,
+    "Quality2":3.1,
+    "Easiness":2
+  },
+  {
+    "Name":"Ding, Yujie",
+    "Quality":"Poor Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":2,
+    "Quality2":1.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Ding, Yujie",
+    "Quality":"Poor Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":2,
+    "Quality2":1.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Dipietro, Kathryn",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":11,
+    "Quality2":4.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Dipietro, Kathryn",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":11,
+    "Quality2":4.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Dobric, Vladimir",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":16,
+    "Quality2":3.3,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Dobric, Vladimir",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":16,
+    "Quality2":3.3,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Dodson, Bruce",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":62,
+    "Quality2":1.5,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Dodson, Bruce",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":62,
+    "Quality2":1.5,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Dodson, Margaret",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":8,
+    "Quality2":1.4,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Dodson, Margaret",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":8,
+    "Quality2":1.4,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Dolan, Elizabeth",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Dolan, Elizabeth",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Dong, Beibei",
+    "Quality":"Average Quality",
+    "Department":"Marketing",
+    "Ratings":3,
+    "Quality2":2.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Dong, Beibei",
+    "Quality":"Average Quality",
+    "Department":"Marketing",
+    "Ratings":3,
+    "Quality2":2.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Donovan, Devin",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":3.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Donovan, Devin",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":3.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Doty, Alexander",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":16,
+    "Quality2":2.8,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Doty, Alexander",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":16,
+    "Quality2":2.8,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Douglass, Kurt",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Douglass, Kurt",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Duffield, Judy",
+    "Quality":"Poor Quality",
+    "Department":"Education",
+    "Ratings":6,
+    "Quality2":2.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Duffield, Judy",
+    "Quality":"Poor Quality",
+    "Department":"Education",
+    "Ratings":6,
+    "Quality2":2.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Duffy, Ian",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":12,
+    "Quality2":4,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Duffy, Ian",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":12,
+    "Quality2":4,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Dupaul, George",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":6,
+    "Quality2":4.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Dupaul, George",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":6,
+    "Quality2":4.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Dupont, John",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":3,
+    "Quality2":3.3,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Duquette, Bob",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":26,
+    "Quality2":4.6,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Dymond, Erica",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":37,
+    "Quality2":4.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Eades, Alwyn",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":3
+  },
+  {
+    "Name":"Eastman, Nate",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":14,
+    "Quality2":4,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Eberhardt, Nikolai",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Eckmann, Michael",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Edwards, Suzanne",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":6,
+    "Quality2":4.6,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Eisenberg, Bernard",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":42,
+    "Quality2":1.9,
+    "Easiness":2.5
+  },
+  {
+    "Name":"El-Turkey, Fatma",
+    "Quality":"Good Quality",
+    "Department":"Foreign Languages",
+    "Ratings":4,
+    "Quality2":4.9,
+    "Easiness":4.8
+  },
+  {
+    "Name":"Evenson, Ed",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":41,
+    "Quality2":4.2,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Falcinelli, Dale",
+    "Quality":"Average Quality",
+    "Department":"Marketing",
+    "Ratings":21,
+    "Quality2":3.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Falk, Matthias",
+    "Quality":"Poor Quality",
+    "Department":"Biology",
+    "Ratings":17,
+    "Quality2":2,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Fegan, Howard",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":19,
+    "Quality2":2.8,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Felzer, Ben",
+    "Quality":"Poor Quality",
+    "Department":"Environmental Science",
+    "Ratings":4,
+    "Quality2":2.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Femister, James",
+    "Quality":"Good Quality",
+    "Department":"Computer Engineering",
+    "Ratings":7,
+    "Quality2":3.8,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Fennell, Vera",
+    "Quality":"Average Quality",
+    "Department":"Political Science",
+    "Ratings":7,
+    "Quality2":3.4,
+    "Easiness":4.4
+  },
+  {
+    "Name":"Fennely, Kristina",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":19,
+    "Quality2":4.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Fergus, Jan",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":17,
+    "Quality2":3.7,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Ferguson, Gregory",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":23,
+    "Quality2":3.5,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Ferhalar, Cuenyt",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":5,
+    "Quality2":4.5,
+    "Easiness":4.4
+  },
+  {
+    "Name":"Field, Debra",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":3,
+    "Quality2":4,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Fifer, Elizabeth",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":15,
+    "Quality2":4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Figeroa-Armijos, Maria A",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Fine, David",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4.8,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Fiocco, Marcello O.",
+    "Quality":"Average Quality",
+    "Department":"Philosophy",
+    "Ratings":2,
+    "Quality2":2.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Flannery, Sean",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4.1,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Fleischer, Jeffrey",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":6,
+    "Quality2":4.9,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Flisser, Diane",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Folk, Robert",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":42,
+    "Quality2":2.2,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Folsom, David",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":13,
+    "Quality2":4.3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Foltz, Mary",
+    "Quality":"",
+    "Department":"English",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Forouraghi, Kaveh",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":3,
+    "Quality2":3.5,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Forster, William",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Forsyth, Amy",
+    "Quality":"Average Quality",
+    "Department":"Fine Arts",
+    "Ratings":11,
+    "Quality2":2.5,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Foster, Natalie",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":80,
+    "Quality2":4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Francis, Drew",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":7,
+    "Quality2":4.6,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Freeman, Robert",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":5,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"French, Chuck",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":25,
+    "Quality2":4.6,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Frey, Douglas",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":23,
+    "Quality2":4.3,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Friedman, Kenneth",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":9,
+    "Quality2":4.3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Friedman, Sharon",
+    "Quality":"Average Quality",
+    "Department":"Journalism",
+    "Ratings":17,
+    "Quality2":2.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Frisoli, Michael",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Fritchman, Bruce",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":28,
+    "Quality2":1.5,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Fugate, Brian",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":5,
+    "Quality2":4.8,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Funari, Tony",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":10,
+    "Quality2":1.9,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Galante, Paul",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":4,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Gallagher, Ed",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":15,
+    "Quality2":4.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Gallagher, Jamey",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Gallant, Beth",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":18,
+    "Quality2":3.8,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Gans, Lucy",
+    "Quality":"Good Quality",
+    "Department":"Women's Studies",
+    "Ratings":12,
+    "Quality2":3.6,
+    "Easiness":3
+  },
+  {
+    "Name":"Gardiner, Keith",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":24,
+    "Quality2":3.6,
+    "Easiness":4.6
+  },
+  {
+    "Name":"Garrigan, Scott R",
+    "Quality":"",
+    "Department":"Education",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Gatewood, John",
+    "Quality":"Average Quality",
+    "Department":"Anthropology",
+    "Ratings":18,
+    "Quality2":3.4,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Gerek, Aydin",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":5
+  },
+  {
+    "Name":"Ghadiali, Samir",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":9,
+    "Quality2":5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Ghosh, Bhaskar",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":17,
+    "Quality2":3.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Giambatista, Bob",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":10,
+    "Quality2":4,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Gilchrist, James",
+    "Quality":"Good Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":12,
+    "Quality2":3.9,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Gill, Michael",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":41,
+    "Quality2":3.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Gillroy, John",
+    "Quality":"Average Quality",
+    "Department":"Internation Service",
+    "Ratings":10,
+    "Quality2":3.4,
+    "Easiness":2
+  },
+  {
+    "Name":"Gilrain, Jennie",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":5,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Girardot, Norman",
+    "Quality":"Average Quality",
+    "Department":"Religion",
+    "Ratings":8,
+    "Quality2":2.9,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Gisolo, Gisella",
+    "Quality":"Poor Quality",
+    "Department":"Not Specified",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":4
+  },
+  {
+    "Name":"Glower, Michele",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":7,
+    "Quality2":2.9,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Glueckstein, Jon",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":12,
+    "Quality2":3.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Godbout, Chris",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":5,
+    "Quality2":3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Goldman, Steve",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":18,
+    "Quality2":3.9,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Gonnerman, Laura",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":15,
+    "Quality2":4.2,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Gooch, Cynthia",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":5,
+    "Quality2":2.6,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Gordon, Paul",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":17,
+    "Quality2":3.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Gordon, Scott",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":21,
+    "Quality2":3.4,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Gorney, Carole",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":4,
+    "Quality2":3.8,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Grant, Heidi",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":7,
+    "Quality2":4.4,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Greenleaf, James",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":7,
+    "Quality2":4.4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Grenestedt, Joachim",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":18,
+    "Quality2":2.5,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Grigorescu, Alex",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":20,
+    "Quality2":4.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Grigoryan, Arman",
+    "Quality":"Good Quality",
+    "Department":"Humanities",
+    "Ratings":2,
+    "Quality2":3.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Grim, Kelly",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":8,
+    "Quality2":3.4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Groover, Mikell",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":14,
+    "Quality2":4,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Gunter, Frank",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":79,
+    "Quality2":4.7,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Gunton, James D.",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":4,
+    "Quality2":4.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Gupta, Reetika",
+    "Quality":"Average Quality",
+    "Department":"Marketing",
+    "Ratings":6,
+    "Quality2":3.3,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Gurac, Sinten",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":1.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Guvelioglu, Galip",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":4.8
+  },
+  {
+    "Name":"Haas, Julie",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Haden, Christina",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Hagood, Martha",
+    "Quality":"Average Quality",
+    "Department":"Art History",
+    "Ratings":2,
+    "Quality2":3,
+    "Easiness":3
+  },
+  {
+    "Name":"Hall, Jim",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":15,
+    "Quality2":3.3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Haller, William",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":49,
+    "Quality2":4.2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Halvorson, Heidi",
+    "Quality":"Poor Quality",
+    "Department":"Sociology",
+    "Ratings":1,
+    "Quality2":2,
+    "Easiness":2
+  },
+  {
+    "Name":"Hammond, Thomas",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Harlow, D Gary",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Harmer, Martin",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Harper, Jim",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Harrison, Tim",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Hart, Terry",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Hartman, Joe",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":12,
+    "Quality2":4.4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Hartranft, Ronald J.",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":27,
+    "Quality2":2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Hausmann, Laura",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":16,
+    "Quality2":4.4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Hawkes, David",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":4.6,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Hayashi, Mari",
+    "Quality":"Good Quality",
+    "Department":"Japanese",
+    "Ratings":5,
+    "Quality2":4.3,
+    "Easiness":3.6
+  },
+  {
+    "Name":"He, Chenxu",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":10,
+    "Quality2":3,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Heflin, Jeff",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":17,
+    "Quality2":4.2,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Heier, Gordon",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":6,
+    "Quality2":3.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Heindel, Ned",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":3,
+    "Quality2":4.3,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Heiss, Wes",
+    "Quality":"Good Quality",
+    "Department":"Design",
+    "Ratings":3,
+    "Quality2":3.7,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Hendershot, Karen",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Herrenkohl, Roy",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":5,
+    "Quality2":4.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Herz, Lori",
+    "Quality":"",
+    "Department":"Chemical Engineering",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Heydenberk, Warren",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":12,
+    "Quality2":3.6,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Hickman, Peet",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":34,
+    "Quality2":2,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Hicks, Karen",
+    "Quality":"Good Quality",
+    "Department":"Women's Studies",
+    "Ratings":4,
+    "Quality2":3.5,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Hillman, Donald",
+    "Quality":"Poor Quality",
+    "Department":"Computer Science",
+    "Ratings":22,
+    "Quality2":2.3,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Hilt-Panahon, Alexandra",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Hinrichs, David",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":12,
+    "Quality2":3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"HO, Andy",
+    "Quality":"Average Quality",
+    "Department":"Chemistry",
+    "Ratings":2,
+    "Quality2":2.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Hoelscher, Erica",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Hoffmann, Chris",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Hofmeister, Christine",
+    "Quality":"Average Quality",
+    "Department":"Computer Science",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Holland, Breena",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":7,
+    "Quality2":4.4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Holzinger, Carl",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":23,
+    "Quality2":3.3,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Hook, Jonelle",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":1,
+    "Quality2":2.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Horn, Dashielle",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Hsu, James",
+    "Quality":"Average Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":3
+  },
+  {
+    "Name":"Huang, Wei-Min",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":12,
+    "Quality2":4.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Huang, Xiaolei",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":3,
+    "Quality2":3.7,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Huennekens, John",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":4,
+    "Quality2":4.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Hulsizer, Barry",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":19,
+    "Quality2":3.7,
+    "Easiness":4.6
+  },
+  {
+    "Name":"Hundt, Stefanie",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":1,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Hupbach, Almut",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Hussain, Kurram",
+    "Quality":"Good Quality",
+    "Department":"Religion",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Hyclak, Tom",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":58,
+    "Quality2":2.9,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Hyest, Jenifer",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":2,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Hyland, Diane",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":40,
+    "Quality2":4.6,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Ikegami, Naoko",
+    "Quality":"",
+    "Department":"Modern Languages",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Imerman, Michael B",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":4
+  },
+  {
+    "Name":"Inman, Arpana",
+    "Quality":"Poor Quality",
+    "Department":"Psychology",
+    "Ratings":34,
+    "Quality2":2.1,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Innes, Jon",
+    "Quality":"Poor Quality",
+    "Department":"Economics",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Iovine, Mary Kathryn",
+    "Quality":"Poor Quality",
+    "Department":"Biological Sciences",
+    "Ratings":3,
+    "Quality2":1.8,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Isaak, Garth",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":32,
+    "Quality2":2.9,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Itzkowitz, Murray",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":5,
+    "Quality2":4.1,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Jagota, Anand",
+    "Quality":"Average Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":2,
+    "Quality2":3,
+    "Easiness":2
+  },
+  {
+    "Name":"Jain, Himansu",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":1.5,
+    "Easiness":1.3
+  },
+  {
+    "Name":"Jedlicka, Sabrina",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":8,
+    "Quality2":4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Jellison, Kristen",
+    "Quality":"Good Quality",
+    "Department":"Environmental Engineering",
+    "Ratings":5,
+    "Quality2":3.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Jiang, Rui Hua Joy",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":4,
+    "Quality2":3.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Jing Li, Tiffany",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":3,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Johnson, David",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":41,
+    "Quality2":2.9,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Johnson, Heather",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":21,
+    "Quality2":3.9,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Johnson, Kashi",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":10,
+    "Quality2":4.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Johnson, Stan",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":3.7,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Jones, David",
+    "Quality":"Poor Quality",
+    "Department":"Business",
+    "Ratings":8,
+    "Quality2":1.8,
+    "Easiness":1.4
+  },
+  {
+    "Name":"Jones, Marilyn",
+    "Quality":"Average Quality",
+    "Department":"Design",
+    "Ratings":3,
+    "Quality2":2.5,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Jones, Rita",
+    "Quality":"Good Quality",
+    "Department":"Women's Studies",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Kalafut, Sharon",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":44,
+    "Quality2":3.9,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Kalleeny, Christine",
+    "Quality":"Average Quality",
+    "Department":"Languages",
+    "Ratings":2,
+    "Quality2":2.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kalnitsky, Kenneth",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":4
+  },
+  {
+    "Name":"Kang, Yoon JU",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":4,
+    "Quality2":3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kanofsky, Alvin",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":17,
+    "Quality2":1.7,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Kart, Susan",
+    "Quality":"",
+    "Department":"Art History",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Kashinski, Dave",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":7,
+    "Quality2":4.9,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Katz, Stephanie",
+    "Quality":"Good Quality",
+    "Department":"Spanish",
+    "Ratings":14,
+    "Quality2":4.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Kaufmann, Chaim",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":26,
+    "Quality2":3.8,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Kay, Ed",
+    "Quality":"Average Quality",
+    "Department":"Computer Science",
+    "Ratings":52,
+    "Quality2":2.9,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Kaye, Andrew",
+    "Quality":"Good Quality",
+    "Department":"African Studies",
+    "Ratings":4,
+    "Quality2":4.2,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Kazakia, Jacob",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":15,
+    "Quality2":4.1,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Kearns, Martha",
+    "Quality":"Average Quality",
+    "Department":"Art History",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":4
+  },
+  {
+    "Name":"Keetley, Dawn",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":4.7,
+    "Easiness":3
+  },
+  {
+    "Name":"Kehl, Eve",
+    "Quality":"Poor Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Khabbaz, Samir",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":48,
+    "Quality2":1.9,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Kiely, Chris",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":8,
+    "Quality2":3.5,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Kilker, Bob",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":4.2,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Kim, Yong",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":7,
+    "Quality2":2.4,
+    "Easiness":1.4
+  },
+  {
+    "Name":"King, Art",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":30,
+    "Quality2":2.9,
+    "Easiness":2.2
+  },
+  {
+    "Name":"King, Jerry",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":19,
+    "Quality2":4.5,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Kircher, Kimberly",
+    "Quality":"",
+    "Department":"Education",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Kish, Richard",
+    "Quality":"Average Quality",
+    "Department":"Business",
+    "Ratings":19,
+    "Quality2":2.7,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Kishore, Shalinee",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Klein, Andrew",
+    "Quality":"Good Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Klier, Kamil",
+    "Quality":"Poor Quality",
+    "Department":"Chemistry",
+    "Ratings":20,
+    "Quality2":2.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Kling, Rebecca",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":3.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Knafo Setton, Ruth",
+    "Quality":"Good Quality",
+    "Department":"Writing",
+    "Ratings":4,
+    "Quality2":3.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Knisely, Nick",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":13,
+    "Quality2":3.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kodama, Ken",
+    "Quality":"Poor Quality",
+    "Department":"Science",
+    "Ratings":14,
+    "Quality2":2.4,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Kolchin, Michael",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":3,
+    "Quality2":4.7,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Koot, Christian",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":3,
+    "Quality2":4.5,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Korth, Hank",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":22,
+    "Quality2":3.8,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Kraft, Kenneth",
+    "Quality":"Good Quality",
+    "Department":"Theology",
+    "Ratings":18,
+    "Quality2":4.6,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Kramer, Stefany",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Kramp, Michael",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":1,
+    "Quality2":2.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Kranzley, Glenn",
+    "Quality":"Average Quality",
+    "Department":"Journalism",
+    "Ratings":6,
+    "Quality2":3.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Krasas, Jacqueline",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":5,
+    "Quality2":4.4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Krawiec, Steve",
+    "Quality":"Average Quality",
+    "Department":"Biology",
+    "Ratings":35,
+    "Quality2":3.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Kremmel, Laura",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":2.8,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Krishnan, Gopal",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":4,
+    "Quality2":3.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kroll, Barry",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":4.4,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Kuchinski, William",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kuchka, Mike",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":20,
+    "Quality2":4.4,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Kuchta, Robert",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":25,
+    "Quality2":4.2,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Kumar, Anil",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":2,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Kumar, Sushil",
+    "Quality":"Poor Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":5,
+    "Quality2":2.1,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Kurtz, Rita",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":17,
+    "Quality2":2.9,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Kushner, Roland",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Kutch, Lynn",
+    "Quality":"Good Quality",
+    "Department":"Languages",
+    "Ratings":10,
+    "Quality2":4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Kvartskshava, Maia",
+    "Quality":"Average Quality",
+    "Department":"Russian",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":4
+  },
+  {
+    "Name":"Lafrance, Joy",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":3.2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Lai, Ernest",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":6,
+    "Quality2":4.5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Laible, Deborah",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":32,
+    "Quality2":3.7,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Laible, Janet",
+    "Quality":"Average Quality",
+    "Department":"Political Science",
+    "Ratings":11,
+    "Quality2":3.4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Lamadrid, Alberto",
+    "Quality":"Poor Quality",
+    "Department":"Economics",
+    "Ratings":12,
+    "Quality2":1.9,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Lanave, Gabriel",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":4,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Landskron, Kai",
+    "Quality":"Poor Quality",
+    "Department":"Chemistry",
+    "Ratings":6,
+    "Quality2":2.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Lapadula, Matthew",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":4,
+    "Quality2":4.9,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Laramie, Birgit",
+    "Quality":"Good Quality",
+    "Department":"German",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Largay, James",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":14,
+    "Quality2":3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Larson, John",
+    "Quality":"Average Quality",
+    "Department":"Chemistry",
+    "Ratings":4,
+    "Quality2":2.9,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Lasker, Judith",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":21,
+    "Quality2":3.9,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Laurenzi, Ian",
+    "Quality":"Good Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Lawrence, Sam",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":4,
+    "Quality2":4.6,
+    "Easiness":2
+  },
+  {
+    "Name":"Lawson, Erik",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":3,
+    "Quality2":3.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Lay, Jenna",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4.9,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Layser, Greg",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Lebovic, Nitzan",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":2,
+    "Quality2":3.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Lee, Grace",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Lee, Kiri",
+    "Quality":"Good Quality",
+    "Department":"Languages",
+    "Ratings":11,
+    "Quality2":4.4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Lefkowitz, Linda",
+    "Quality":"Poor Quality",
+    "Department":"Spanish",
+    "Ratings":11,
+    "Quality2":2.4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Lemaster, Michelle",
+    "Quality":"Average Quality",
+    "Department":"History",
+    "Ratings":9,
+    "Quality2":3.1,
+    "Easiness":2
+  },
+  {
+    "Name":"Lennon, Gerard",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":9,
+    "Quality2":4.3,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Lennon, John",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":13,
+    "Quality2":4.2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Leo, Nicole",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":2
+  },
+  {
+    "Name":"Lepley, Thom",
+    "Quality":"Poor Quality",
+    "Department":"Design",
+    "Ratings":4,
+    "Quality2":1.6,
+    "Easiness":3
+  },
+  {
+    "Name":"Levine, Alexander",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":14,
+    "Quality2":4.2,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Levy, Edward",
+    "Quality":"Average Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":3,
+    "Quality2":2.5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Li, John",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":43,
+    "Quality2":1.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"LI, Mei",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":7,
+    "Quality2":4.7,
+    "Easiness":4.8
+  },
+  {
+    "Name":"LI, Tiffany",
+    "Quality":"Poor Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"LI, XU",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":4,
+    "Quality2":1.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Licini, Jerome",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":72,
+    "Quality2":3.5,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Liedtka, Jeanne",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":8,
+    "Quality2":4.2,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Liedtka, Steve",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":15,
+    "Quality2":4.6,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Lin, Lin",
+    "Quality":"Good Quality",
+    "Department":"Information Systems",
+    "Ratings":2,
+    "Quality2":3.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Lincini, Jerome",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":5,
+    "Quality2":3.9,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Linderoth, Jeff",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":29,
+    "Quality2":3.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Linebaugh, Wade",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":3
+  },
+  {
+    "Name":"Lipinski, Robert",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":1,
+    "Quality2":2.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Littau, Jeremy",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Liu, Tianbo",
+    "Quality":"Average Quality",
+    "Department":"Chemistry",
+    "Ratings":13,
+    "Quality2":3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Lomauro, Timothy",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":13,
+    "Quality2":5,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Loomis, John",
+    "Quality":"Good Quality",
+    "Department":"Astronomy",
+    "Ratings":7,
+    "Quality2":4.8,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Lopresti, Daniel",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Lotto, Ed",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":11,
+    "Quality2":3.9,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Lowe-Krentz, Linda",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":7,
+    "Quality2":3.9,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Lu, Chunning",
+    "Quality":"Average Quality",
+    "Department":"Information Systems",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":5
+  },
+  {
+    "Name":"LU, YI",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Lucas, Timothy",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":4,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Lule, Jack",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":8,
+    "Quality2":5,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Lule, John",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Lungu, Aliana",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":3,
+    "Quality2":3.7,
+    "Easiness":3
+  },
+  {
+    "Name":"Lutz, J. Gary",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":8,
+    "Quality2":3.9,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Luyben, William",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":3.9,
+    "Easiness":2
+  },
+  {
+    "Name":"Lyman, Charles",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":10,
+    "Quality2":2.5,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Lyu, Byunggook",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Ma, Ian",
+    "Quality":"Poor Quality",
+    "Department":"Women's Studies",
+    "Ratings":2,
+    "Quality2":2,
+    "Easiness":3
+  },
+  {
+    "Name":"MA, Yung-Yu",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":3,
+    "Quality2":4.3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Maas, Stefan",
+    "Quality":"Poor Quality",
+    "Department":"Biology",
+    "Ratings":6,
+    "Quality2":2.2,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Mac Pherson, Alistair",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":16,
+    "Quality2":1.5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"MacNair, William",
+    "Quality":"",
+    "Department":"Civil Engineering",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Magerman, Mark",
+    "Quality":"Good Quality",
+    "Department":"Counseling Psychology",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Magnat, Colton",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":4,
+    "Quality2":3.6,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Mahony, Douglas",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Malt, Barbara",
+    "Quality":"Poor Quality",
+    "Department":"Psychology",
+    "Ratings":9,
+    "Quality2":2.1,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Manzo, Joseph",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":25,
+    "Quality2":4.3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Marjanovic-Shane, Ana",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":2,
+    "Quality2":2.5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Marsh, Jessecae",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":14,
+    "Quality2":4.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Marshall, James",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":3,
+    "Quality2":4.7,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Martell, Colleen",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Martin, Bev",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":5
+  },
+  {
+    "Name":"Martindale, Wight",
+    "Quality":"Good Quality",
+    "Department":"Humanities",
+    "Ratings":8,
+    "Quality2":4.6,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Marzillier, Jutta",
+    "Quality":"",
+    "Department":"Biological Sciences",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Maskulka, James",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":18,
+    "Quality2":3.9,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Mason, Doug",
+    "Quality":"Average Quality",
+    "Department":"Fine Arts",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Mattern, Janice",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":17,
+    "Quality2":3.9,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Matthews, Rick",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":38,
+    "Quality2":4.4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"McAdams, James",
+    "Quality":"",
+    "Department":"English",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"McArthy, Teresa",
+    "Quality":"Poor Quality",
+    "Department":"Business",
+    "Ratings":2,
+    "Quality2":2,
+    "Easiness":2.5
+  },
+  {
+    "Name":"McAulay, Alastair",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":8,
+    "Quality2":2.4,
+    "Easiness":3.8
+  },
+  {
+    "Name":"McCabe, Larry",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":2,
+    "Quality2":3,
+    "Easiness":3.5
+  },
+  {
+    "Name":"McCluskey, George",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":6,
+    "Quality2":4.7,
+    "Easiness":4.3
+  },
+  {
+    "Name":"McCormick, Patrick",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":7,
+    "Quality2":4,
+    "Easiness":4.7
+  },
+  {
+    "Name":"McDonald, Elzbieta",
+    "Quality":"",
+    "Department":"German",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"McDonald, Judy",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":24,
+    "Quality2":4.6,
+    "Easiness":3
+  },
+  {
+    "Name":"McFadden, Danielle",
+    "Quality":"Good Quality",
+    "Department":"French",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":2
+  },
+  {
+    "Name":"McGinnis, Mike",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"McHugh, Anthony J",
+    "Quality":"Poor Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":1,
+    "Quality2":2,
+    "Easiness":3
+  },
+  {
+    "Name":"McIntosh, James",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":17,
+    "Quality2":3.8,
+    "Easiness":3.3
+  },
+  {
+    "Name":"McIntosh, Steve",
+    "Quality":"Good Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"McNally, Kathleen",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"McRoberts, Gerald",
+    "Quality":"Poor Quality",
+    "Department":"Psychology",
+    "Ratings":8,
+    "Quality2":1.8,
+    "Easiness":2.1
+  },
+  {
+    "Name":"McSwain, Virginia",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":3,
+    "Quality2":2.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Melone, Matthew",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":22,
+    "Quality2":4.6,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Meltzer, Kimberly",
+    "Quality":"Average Quality",
+    "Department":"Journalism",
+    "Ratings":2,
+    "Quality2":3,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Mendelson, Michael",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":18,
+    "Quality2":4.3,
+    "Easiness":4.4
+  },
+  {
+    "Name":"Mennon, R",
+    "Quality":"Average Quality",
+    "Department":"Not Specified",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":1
+  },
+  {
+    "Name":"Menon, Rajan",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":75,
+    "Quality2":4.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Metzler, April",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":4,
+    "Quality2":3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Meyerhoefer, Chad",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":12,
+    "Quality2":3.5,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Michlic, Joanne",
+    "Quality":"Average Quality",
+    "Department":"History",
+    "Ratings":4,
+    "Quality2":3.1,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Milet, Jeff",
+    "Quality":"Poor Quality",
+    "Department":"Theater",
+    "Ratings":10,
+    "Quality2":2.1,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Miller, Elizabeth",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Miller, Monica",
+    "Quality":"Good Quality",
+    "Department":"African Studies",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Miller, Rebecca",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":23,
+    "Quality2":4.5,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Misiolek, Wojciech",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Mitchell, Graham",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":9,
+    "Quality2":3.7,
+    "Easiness":4.4
+  },
+  {
+    "Name":"Mittal, Jeetain",
+    "Quality":"Average Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":2,
+    "Quality2":2.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Moglen, Seth",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":32,
+    "Quality2":4.5,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Montella, Corey",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Moon, Bruce",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":28,
+    "Quality2":3.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Moore, David",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":5,
+    "Quality2":4.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Moore, Erin",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":6,
+    "Quality2":3.6,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Moored, Keith W.",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Morgan, Ted",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":22,
+    "Quality2":4.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Morris, Don",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":9,
+    "Quality2":4.2,
+    "Easiness":4.6
+  },
+  {
+    "Name":"Moskowitz, Gordon",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":20,
+    "Quality2":3.3,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Muddhasani, Venky",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Mueller, Peter",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":20,
+    "Quality2":1.4,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Muething, David",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":4,
+    "Quality2":2.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Mullen, Sean",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":4,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Mundhenk, Rosemarie",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":17,
+    "Quality2":4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Munley, Vincent",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":10,
+    "Quality2":4.8,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Munoz-Avila, Hector",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":12,
+    "Quality2":3.7,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Munson, Ziad",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":18,
+    "Quality2":4.2,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Muraleetharan, Murugiah",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":6,
+    "Quality2":2.3,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Murphy, Donna",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Murphy, Mary",
+    "Quality":"Average Quality",
+    "Department":"Design",
+    "Ratings":2,
+    "Quality2":2.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Myers, David",
+    "Quality":"Average Quality",
+    "Department":"Business",
+    "Ratings":17,
+    "Quality2":3.1,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Nagel, Roger",
+    "Quality":"Average Quality",
+    "Department":"Computer Science",
+    "Ratings":13,
+    "Quality2":3.3,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Naito, Clay",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4.4,
+    "Easiness":2
+  },
+  {
+    "Name":"Najar, Monica",
+    "Quality":"Average Quality",
+    "Department":"History",
+    "Ratings":20,
+    "Quality2":3.3,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Napier, Terrence",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":46,
+    "Quality2":4.6,
+    "Easiness":3
+  },
+  {
+    "Name":"Narizny, Kevin",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":7,
+    "Quality2":4.5,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Nation, George",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":13,
+    "Quality2":4.9,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Nayar, Chitra",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":121,
+    "Quality2":4.2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Nayar, Nandkumar",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":5,
+    "Quality2":4.6,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Neel, Robert",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":12,
+    "Quality2":4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Negrea, Irina",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":3.6,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Neidbala, Sam",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Neti, Sudakhar",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":10,
+    "Quality2":2.4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Neulight, Richard",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Neumeyer, Al",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":8,
+    "Quality2":4.4,
+    "Easiness":5
+  },
+  {
+    "Name":"Nguyen, Thuc",
+    "Quality":"Poor Quality",
+    "Department":"Business Economics",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":2
+  },
+  {
+    "Name":"Nicholas, Mary",
+    "Quality":"Good Quality",
+    "Department":"Russian",
+    "Ratings":9,
+    "Quality2":4.9,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Nicolopolou, Ageliki",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":1,
+    "Quality2":2.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Nied, Herman",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":6,
+    "Quality2":4.9,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Norian, Karl",
+    "Quality":"Average Quality",
+    "Department":"Electrical Engineering",
+    "Ratings":26,
+    "Quality2":3,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Nyby, John",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":13,
+    "Quality2":4.3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Nytko, Fred",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":4.3
+  },
+  {
+    "Name":"O'Brien, Anthony",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":49,
+    "Quality2":3.9,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Ochs, John",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":13,
+    "Quality2":3.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"O'Connor, Tom",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":9,
+    "Quality2":3.2,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Olson, Kathy",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":19,
+    "Quality2":3.5,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Olson, Laura",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":6,
+    "Quality2":4.4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Orenstein, Susan",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Orrs, Mark",
+    "Quality":"Poor Quality",
+    "Department":"Political Science",
+    "Ratings":5,
+    "Quality2":2.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Orsini, Cynthia",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":5,
+    "Quality2":3.5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"O'Seaghdha, Padraig",
+    "Quality":"Poor Quality",
+    "Department":"Psychology",
+    "Ratings":14,
+    "Quality2":1.5,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Ostrovsky, Dmitry",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":6,
+    "Quality2":3.6,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Ou-Yang, Daniel",
+    "Quality":"Average Quality",
+    "Department":"Physics",
+    "Ratings":16,
+    "Quality2":2.9,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Ozsoy, Tulga",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":22,
+    "Quality2":3.6,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Oztekin, Alp",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":18,
+    "Quality2":4.3,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Ozturk, Murat",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":14,
+    "Quality2":4.2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Packer, Dominic",
+    "Quality":"Average Quality",
+    "Department":"Psychology",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Pakzad, Shamim",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":5,
+    "Quality2":4.4,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Palmo, Artis",
+    "Quality":"Good Quality",
+    "Department":"Counseling Psychology",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":5
+  },
+  {
+    "Name":"Palya, Annie",
+    "Quality":"Good Quality",
+    "Department":"Geology",
+    "Ratings":2,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Pamukcu, Derya",
+    "Quality":"Poor Quality",
+    "Department":"Industrial Engineering",
+    "Ratings":2,
+    "Quality2":1.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Pamukcu, Sibel",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":7,
+    "Quality2":3.7,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Pankenier, David",
+    "Quality":"Poor Quality",
+    "Department":"History",
+    "Ratings":1,
+    "Quality2":2,
+    "Easiness":3
+  },
+  {
+    "Name":"Panofsky, Ellen",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":8,
+    "Quality2":4.2,
+    "Easiness":4
+  },
+  {
+    "Name":"Parveen, Gupta",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":3,
+    "Quality2":2.5,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Pattnaik, Radha",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":5,
+    "Quality2":3.7,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Paul, John",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":26,
+    "Quality2":3.6,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Pavlock, Barbara",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":31,
+    "Quality2":2.5,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Pazzaglia, Frank",
+    "Quality":"Good Quality",
+    "Department":"Science",
+    "Ratings":11,
+    "Quality2":4.7,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Pearson, Raymond",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Pense, Christine",
+    "Quality":"Good Quality",
+    "Department":"Social Science",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Pepper, Pam",
+    "Quality":"Average Quality",
+    "Department":"Theater",
+    "Ratings":10,
+    "Quality2":3.2,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Perdomo, Oscar",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":15,
+    "Quality2":3.4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Perevalov, Eugene",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":18,
+    "Quality2":3.3,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Perla, Gene",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":6,
+    "Quality2":3.6,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Perreira, N Duke",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":11,
+    "Quality2":2.2,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Perry, Susan",
+    "Quality":"Good Quality",
+    "Department":"Chemical Engineering",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Perry, Thomas",
+    "Quality":"Good Quality",
+    "Department":"Industrial Engineering",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Pessiki, Stephen",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":12,
+    "Quality2":4.8,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Peters, Tom",
+    "Quality":"Good Quality",
+    "Department":"Architecture",
+    "Ratings":6,
+    "Quality2":4.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Peterson, Belinda",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Peterson, James",
+    "Quality":"",
+    "Department":"Ethnic Studies",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Pettegrew, John",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":16,
+    "Quality2":4.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Pettit, Edward",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Peytcheva, Marietta",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":7,
+    "Quality2":4,
+    "Easiness":1.3
+  },
+  {
+    "Name":"Phillips, Charles",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":36,
+    "Quality2":4.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Piltch, Bunnie",
+    "Quality":"Good Quality",
+    "Department":"Hebrew",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Pinaire, Brian",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":18,
+    "Quality2":4.6,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Pires, Marcos",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":4,
+    "Quality2":4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Plebani, Louis",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":13,
+    "Quality2":2.7,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Polik, Imre",
+    "Quality":"Good Quality",
+    "Department":"Industrial Engineering",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":2
+  },
+  {
+    "Name":"Pope, Lavar",
+    "Quality":"Good Quality",
+    "Department":"African Studies",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Poplawsky, Jon",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Portela, M. Edurne",
+    "Quality":"Good Quality",
+    "Department":"Spanish",
+    "Ratings":7,
+    "Quality2":4.7,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Portny, Stan",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":3,
+    "Quality2":3.7,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Pottenger, William",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":13,
+    "Quality2":4.3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Praedin, D",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Price, Steven McKay",
+    "Quality":"",
+    "Department":"Finance",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Priester, Ann",
+    "Quality":"Good Quality",
+    "Department":"Fine Arts",
+    "Ratings":11,
+    "Quality2":4.4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Prieto, Antonio",
+    "Quality":"Good Quality",
+    "Department":"Spanish",
+    "Ratings":4,
+    "Quality2":4.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Pytleski, Patricia",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4.3,
+    "Easiness":3
+  },
+  {
+    "Name":"Qian, Huiyu",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":2.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Queen, Cliff",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":25,
+    "Quality2":2.1,
+    "Easiness":4
+  },
+  {
+    "Name":"Quinn, Casey",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":20,
+    "Quality2":3.7,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Racon, Kimberly",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":25,
+    "Quality2":2.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Radziszewski, Elizabeth",
+    "Quality":"Average Quality",
+    "Department":"Internation Service",
+    "Ratings":1,
+    "Quality2":3,
+    "Easiness":4
+  },
+  {
+    "Name":"Ramage Macdonald, Joan",
+    "Quality":"Good Quality",
+    "Department":"Environmental Science",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":5
+  },
+  {
+    "Name":"Rampolla, Anne",
+    "Quality":"Good Quality",
+    "Department":"Modern Languages",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Raposa, Mike",
+    "Quality":"Good Quality",
+    "Department":"Theology",
+    "Ratings":10,
+    "Quality2":4.9,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Rebele, James",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":9,
+    "Quality2":3.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Reihman, Greg",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Rice, Amber",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Richardson, Tina",
+    "Quality":"Poor Quality",
+    "Department":"Education",
+    "Ratings":11,
+    "Quality2":1.6,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Richman, Carol",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Rickman, Jeffery",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":11,
+    "Quality2":4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Ricles, James",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":17,
+    "Quality2":3.3,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Ridings, Catherine",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":4,
+    "Quality2":4.4,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Ripa, Augustine",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":6,
+    "Quality2":4.6,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Roberts, Jim",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":23,
+    "Quality2":3.9,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Roberts, Richard",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":15,
+    "Quality2":1.5,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Robertson, Kim",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":3.4,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Robinson, Patrick",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Rogers, Brad",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":15,
+    "Quality2":4.8,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Romano, Robert",
+    "Quality":"Poor Quality",
+    "Department":"Business",
+    "Ratings":2,
+    "Quality2":1.5,
+    "Easiness":1.5
+  },
+  {
+    "Name":"Romascavage, Frank",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":4,
+    "Quality2":4.5,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Rose, June",
+    "Quality":"Good Quality",
+    "Department":"English As A Second Language",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Rosenwien, Robert",
+    "Quality":"Average Quality",
+    "Department":"Sociology",
+    "Ratings":27,
+    "Quality2":3.5,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Ross, Nancy",
+    "Quality":"Good Quality",
+    "Department":"Communication",
+    "Ratings":13,
+    "Quality2":4.4,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Rothman, Naomi",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Rotkin, Vyacheslav",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":3,
+    "Quality2":4.3,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Roubos, Spyro",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Roy, Christopher",
+    "Quality":"Good Quality",
+    "Department":"Anthropology",
+    "Ratings":3,
+    "Quality2":3.5,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Roy, Soma",
+    "Quality":"Average Quality",
+    "Department":"Business",
+    "Ratings":6,
+    "Quality2":3.1,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Roy, Sougata",
+    "Quality":"Poor Quality",
+    "Department":"Civil Engineering",
+    "Ratings":5,
+    "Quality2":1,
+    "Easiness":1.2
+  },
+  {
+    "Name":"Rozehnal, Rob",
+    "Quality":"Good Quality",
+    "Department":"Religion",
+    "Ratings":9,
+    "Quality2":4.4,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Rudolph, Martin",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":54,
+    "Quality2":3.3,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Runowski, Cary",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":2.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Saeger, James",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":11,
+    "Quality2":4.7,
+    "Easiness":4.4
+  },
+  {
+    "Name":"Sahagian, Dork",
+    "Quality":"Average Quality",
+    "Department":"Science",
+    "Ratings":21,
+    "Quality2":3.3,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Salas, Jesus",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":10,
+    "Quality2":3.2,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Salathe, Eric",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":139,
+    "Quality2":4.7,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Saldanha, Colin",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":6,
+    "Quality2":3.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Salerni, Paul",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":5,
+    "Quality2":4.1,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Salerno, Steve",
+    "Quality":"Average Quality",
+    "Department":"Journalism",
+    "Ratings":2,
+    "Quality2":3.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Salsa Rico, Sissy",
+    "Quality":"Poor Quality",
+    "Department":"English As A Second Language",
+    "Ratings":2,
+    "Quality2":1,
+    "Easiness":1
+  },
+  {
+    "Name":"Sametz, Steven",
+    "Quality":"Average Quality",
+    "Department":"Music",
+    "Ratings":30,
+    "Quality2":3.1,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Sami, Heibatollah",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":20,
+    "Quality2":2.3,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Sanderson, Matthew",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":3,
+    "Quality2":4.2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Sands, Jeff",
+    "Quality":"Average Quality",
+    "Department":"Biology",
+    "Ratings":15,
+    "Quality2":3.1,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Santoro, Michael",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Saraceni, Raymond",
+    "Quality":"Good Quality",
+    "Department":"Theater",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":5
+  },
+  {
+    "Name":"Saunders, Tanya",
+    "Quality":"Poor Quality",
+    "Department":"Sociology",
+    "Ratings":2,
+    "Quality2":2,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Sause, Richard",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":4,
+    "Quality2":4.4,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Savage, John",
+    "Quality":"Average Quality",
+    "Department":"History",
+    "Ratings":30,
+    "Quality2":3.3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Savino, Steven",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":8,
+    "Quality2":4.6,
+    "Easiness":4
+  },
+  {
+    "Name":"Sawicki, Nicholas",
+    "Quality":"Good Quality",
+    "Department":"Art History",
+    "Ratings":3,
+    "Quality2":4.3,
+    "Easiness":4.7
+  },
+  {
+    "Name":"Sawyers, Ken",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":26,
+    "Quality2":2.3,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Scancella, Jennifer",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Scheinberg, Katya",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":3,
+    "Easiness":3
+  },
+  {
+    "Name":"Schlie, Ted",
+    "Quality":"Poor Quality",
+    "Department":"Business",
+    "Ratings":7,
+    "Quality2":1.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Schmidt, Nathan",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Schneider, Jill",
+    "Quality":"Average Quality",
+    "Department":"Science",
+    "Ratings":7,
+    "Quality2":2.9,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Schneiderman, Nancy",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":8,
+    "Quality2":3.9,
+    "Easiness":4
+  },
+  {
+    "Name":"Schray, Keith",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":64,
+    "Quality2":4.6,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Schuster-Rosa, Eugenio",
+    "Quality":"Average Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":5,
+    "Quality2":2.9,
+    "Easiness":1.2
+  },
+  {
+    "Name":"Schwarz, Timothy",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":4,
+    "Quality2":5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Scott, William",
+    "Quality":"Good Quality",
+    "Department":"Ethnic Studies",
+    "Ratings":7,
+    "Quality2":4.3,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Seasholtz, Bill",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Seasholtz, Kristine",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":6,
+    "Quality2":4.7,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Sengupta, Arup",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":6,
+    "Quality2":3.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Shaffer, Russell",
+    "Quality":"Poor Quality",
+    "Department":"Physics",
+    "Ratings":11,
+    "Quality2":1.6,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Shank, Nathan",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":14,
+    "Quality2":4.4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Shapiro, Edward",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Shemtov, Ronit",
+    "Quality":"Good Quality",
+    "Department":"Social Science",
+    "Ratings":4,
+    "Quality2":4.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Sherer, Susan",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":4,
+    "Quality2":3.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Shoemaker, Leslie",
+    "Quality":"Good Quality",
+    "Department":"Design",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Shreve, Emily",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":11,
+    "Quality2":3.6,
+    "Easiness":3
+  },
+  {
+    "Name":"Silberstein, Laurence",
+    "Quality":"Average Quality",
+    "Department":"Religion",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Silebi, Cesar",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":17,
+    "Quality2":3.7,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Silvestri, Tim",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Simmons, Gary",
+    "Quality":"Poor Quality",
+    "Department":"Science",
+    "Ratings":30,
+    "Quality2":2.2,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Simon, ED",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Simon, Neal",
+    "Quality":"Good Quality",
+    "Department":"Biology",
+    "Ratings":2,
+    "Quality2":3.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Simon, Roger",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":12,
+    "Quality2":4.5,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Sincavage, Heather",
+    "Quality":"Good Quality",
+    "Department":"Fine Arts",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Sinclair, Ken",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":47,
+    "Quality2":3.5,
+    "Easiness":1.4
+  },
+  {
+    "Name":"Sine, Nadine",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":8,
+    "Quality2":3.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Singh, Ajah",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":1,
+    "Quality2":3.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Singh, Amardeep",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":7,
+    "Quality2":4,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Sisack, Christian",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Sisko, Paul",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":15,
+    "Quality2":3.8,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Sivakumar, KK",
+    "Quality":"Poor Quality",
+    "Department":"Marketing",
+    "Ratings":1,
+    "Quality2":1.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Skandera, Mark",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":12,
+    "Quality2":4.5,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Skibbens, Robert",
+    "Quality":"Poor Quality",
+    "Department":"Science",
+    "Ratings":32,
+    "Quality2":2.3,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Skutches, Gregory",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":10,
+    "Quality2":3.7,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Slocum, Brian",
+    "Quality":"Good Quality",
+    "Department":"Design",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Small, David",
+    "Quality":"Average Quality",
+    "Department":"Anthropology",
+    "Ratings":11,
+    "Quality2":3.5,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Smith, Dean",
+    "Quality":"Good Quality",
+    "Department":"Design",
+    "Ratings":3,
+    "Quality2":4,
+    "Easiness":5
+  },
+  {
+    "Name":"Smith, Gary",
+    "Quality":"Good Quality",
+    "Department":"Accounting",
+    "Ratings":5,
+    "Quality2":4.8,
+    "Easiness":4.2
+  },
+  {
+    "Name":"Smith, Jeannie",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Smith, John",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":23,
+    "Quality2":3.8,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Snyder, Drew",
+    "Quality":"Average Quality",
+    "Department":"Graphic Arts",
+    "Ratings":15,
+    "Quality2":3.3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Snyder, Larry",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":8,
+    "Quality2":4.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Snyder, Quddus",
+    "Quality":"Average Quality",
+    "Department":"Political Science",
+    "Ratings":4,
+    "Quality2":3.1,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Snyder, Stephen",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":12,
+    "Quality2":4.3,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Sorensen, Robert",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":5,
+    "Quality2":4,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Spear, Michael",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":6,
+    "Quality2":4.8,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Speese, Jim",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":4.5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Spletzer, John",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":11,
+    "Quality2":4.2,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Spokane, Arnie",
+    "Quality":"Average Quality",
+    "Department":"Education",
+    "Ratings":3,
+    "Quality2":3.3,
+    "Easiness":2
+  },
+  {
+    "Name":"Stanley, Lee",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":54,
+    "Quality2":1.9,
+    "Easiness":2.3
+  },
+  {
+    "Name":"State, Talida",
+    "Quality":"",
+    "Department":"Education",
+    "Ratings":0,
+    "Quality2":null,
+    "Easiness":null
+  },
+  {
+    "Name":"Steffen, Lloyd",
+    "Quality":"Average Quality",
+    "Department":"Theology",
+    "Ratings":6,
+    "Quality2":3.4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Stegmann, Vera",
+    "Quality":"Good Quality",
+    "Department":"German",
+    "Ratings":7,
+    "Quality2":4.8,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Stenger, Harvey G.",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":46,
+    "Quality2":4.8,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Stewart-Gambino, Hannah",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":18,
+    "Quality2":4.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Stocklos, Staci",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Storer, Robert",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":13,
+    "Quality2":4.2,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Stoudt, Karen",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Strayer, Marty",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":10,
+    "Quality2":4.6,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Stuart, Michele",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Sun, Xiaofeng",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":24,
+    "Quality2":2.6,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Surovcik, Greg",
+    "Quality":"Good Quality",
+    "Department":"Marketing",
+    "Ratings":9,
+    "Quality2":3.9,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Swann, Jennifer",
+    "Quality":"Poor Quality",
+    "Department":"Biology",
+    "Ratings":9,
+    "Quality2":1.6,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Szczepanski, Susan",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":60,
+    "Quality2":1.8,
+    "Easiness":2
+  },
+  {
+    "Name":"Tan, Gang",
+    "Quality":"Good Quality",
+    "Department":"Computer Science",
+    "Ratings":3,
+    "Quality2":3.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Tang, Mingzhe",
+    "Quality":"Poor Quality",
+    "Department":"Economics",
+    "Ratings":6,
+    "Quality2":1.3,
+    "Easiness":1.3
+  },
+  {
+    "Name":"Tannenbaum, Nicola",
+    "Quality":"Poor Quality",
+    "Department":"Anthropology",
+    "Ratings":14,
+    "Quality2":2.4,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Tansu, Nelson",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":7,
+    "Quality2":4.2,
+    "Easiness":2
+  },
+  {
+    "Name":"Tao, Tom",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Tatic-Lucic, Svetlana",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":3,
+    "Quality2":3.3,
+    "Easiness":1.7
+  },
+  {
+    "Name":"Taylor, Larry",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":13,
+    "Quality2":4,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Teboh-Ewungkem, Miranda",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":19,
+    "Quality2":3.9,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Tessaro, George",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":21,
+    "Quality2":1.3,
+    "Easiness":2.9
+  },
+  {
+    "Name":"Thiele, Aurelie",
+    "Quality":"Good Quality",
+    "Department":"Industrial Engineering",
+    "Ratings":9,
+    "Quality2":4.2,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Thode, Stephen",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":14,
+    "Quality2":2.5,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Thoma, Jim",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":5,
+    "Quality2":4.9,
+    "Easiness":4
+  },
+  {
+    "Name":"Thomas, Bruce",
+    "Quality":"Good Quality",
+    "Department":"Architecture",
+    "Ratings":21,
+    "Quality2":4.2,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Thornton, Robert",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":25,
+    "Quality2":4.6,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Timmons, Ed",
+    "Quality":"Poor Quality",
+    "Department":"Economics",
+    "Ratings":3,
+    "Quality2":2.3,
+    "Easiness":2
+  },
+  {
+    "Name":"Titus, Rich",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":24,
+    "Quality2":3.6,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Tompkins, Stephen",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":18,
+    "Quality2":2.8,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Tonkay, Greg",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":16,
+    "Quality2":4.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Toohey, Susan",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":11,
+    "Quality2":3,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Traister, Barbara",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":17,
+    "Quality2":3.7,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Travers, Jason",
+    "Quality":"Good Quality",
+    "Department":"Fine Arts",
+    "Ratings":23,
+    "Quality2":4.1,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Trent, Robert",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":10,
+    "Quality2":4.2,
+    "Easiness":2.4
+  },
+  {
+    "Name":"Trimble, Wally",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":4,
+    "Quality2":3.5,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Trinh, Minh",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":3.9,
+    "Easiness":4.8
+  },
+  {
+    "Name":"Tuzla, Kemal",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":14,
+    "Quality2":3.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Twiggar, Andrew",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":4,
+    "Quality2":4.6,
+    "Easiness":5
+  },
+  {
+    "Name":"Upton,",
+    "Quality":"Good Quality",
+    "Department":"Psychology",
+    "Ratings":21,
+    "Quality2":3.6,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Urbanski, Heather",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":1.8,
+    "Easiness":3
+  },
+  {
+    "Name":"Ussler, Christine",
+    "Quality":"Good Quality",
+    "Department":"Architecture",
+    "Ratings":5,
+    "Quality2":4.4,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Utesch, Matt",
+    "Quality":"Poor Quality",
+    "Department":"Physical Ed",
+    "Ratings":14,
+    "Quality2":1.5,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Van Geertruyden, William",
+    "Quality":"Good Quality",
+    "Department":"Materials Science",
+    "Ratings":2,
+    "Quality2":4.8,
+    "Easiness":5
+  },
+  {
+    "Name":"Vann, Elizabeth",
+    "Quality":"Good Quality",
+    "Department":"Anthropology",
+    "Ratings":14,
+    "Quality2":4.7,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Varley, Eric",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":30,
+    "Quality2":1.9,
+    "Easiness":3.1
+  },
+  {
+    "Name":"Vasconcellos, Geraldo",
+    "Quality":"Average Quality",
+    "Department":"Finance",
+    "Ratings":14,
+    "Quality2":3.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Vavylonis, Dimitrios",
+    "Quality":"Good Quality",
+    "Department":"Physics",
+    "Ratings":1,
+    "Quality2":4,
+    "Easiness":4
+  },
+  {
+    "Name":"Venkataraman, R.",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":64,
+    "Quality2":2.1,
+    "Easiness":2
+  },
+  {
+    "Name":"Vetere, Lisa",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":4.8,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Vezenov, Dmitri",
+    "Quality":"Poor Quality",
+    "Department":"Chemistry",
+    "Ratings":6,
+    "Quality2":2.1,
+    "Easiness":1.8
+  },
+  {
+    "Name":"Viera, Ricardo",
+    "Quality":"Good Quality",
+    "Department":"Art History",
+    "Ratings":2,
+    "Quality2":4,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Vinci, Richard",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":19,
+    "Quality2":5,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Viscardi, Anthony",
+    "Quality":"Average Quality",
+    "Department":"Architecture",
+    "Ratings":11,
+    "Quality2":2.8,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Vogtsberger, Liz",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":1.5,
+    "Easiness":1.2
+  },
+  {
+    "Name":"Voloshin, Arkady",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":8,
+    "Quality2":2.6,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Wachs, Israel",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":18,
+    "Quality2":2.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Wagh, M. D.",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":69,
+    "Quality2":3.7,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Walker, J.D.A",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":5,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Walker, Kindra",
+    "Quality":"Average Quality",
+    "Department":"Accounting",
+    "Ratings":6,
+    "Quality2":3.1,
+    "Easiness":2.5
+  },
+  {
+    "Name":"Walsh, Vincent",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":25,
+    "Quality2":3.8,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Walters, Brad",
+    "Quality":"Good Quality",
+    "Department":"Biological Sciences",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":2
+  },
+  {
+    "Name":"Wang Q, Lim",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":7,
+    "Quality2":3.1,
+    "Easiness":3
+  },
+  {
+    "Name":"Wanger, Christy",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":5,
+    "Quality2":2.4,
+    "Easiness":1.6
+  },
+  {
+    "Name":"Ward, Andrew",
+    "Quality":"Poor Quality",
+    "Department":"Management",
+    "Ratings":2,
+    "Quality2":2,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Ware, Vassie",
+    "Quality":"Average Quality",
+    "Department":"Biology",
+    "Ratings":5,
+    "Quality2":2.9,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Warfield, Bill",
+    "Quality":"Good Quality",
+    "Department":"Music",
+    "Ratings":6,
+    "Quality2":3.8,
+    "Easiness":4
+  },
+  {
+    "Name":"Watanabe, Masashi",
+    "Quality":"Poor Quality",
+    "Department":"Materials Science",
+    "Ratings":5,
+    "Quality2":2.2,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Watkins, Todd",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":21,
+    "Quality2":4.4,
+    "Easiness":3.4
+  },
+  {
+    "Name":"Watts, Billie",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":3.2,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Watts, Bobby",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":3,
+    "Quality2":4.5,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Weaver, Samuel",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":13,
+    "Quality2":4.8,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Webb Iii, Edmund",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":5,
+    "Quality2":4.9,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Wei, Robert",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":4
+  },
+  {
+    "Name":"Weintraub, Steven",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":13,
+    "Quality2":3,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Weisman, Richard",
+    "Quality":"Good Quality",
+    "Department":"Civil Engineering",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Weiss, Roslyn",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":10,
+    "Quality2":4.4,
+    "Easiness":4
+  },
+  {
+    "Name":"Weissler, Chava",
+    "Quality":"Average Quality",
+    "Department":"Theology",
+    "Ratings":6,
+    "Quality2":3.2,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Weissler, Lenore",
+    "Quality":"Good Quality",
+    "Department":"Religion",
+    "Ratings":2,
+    "Quality2":4.5,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Weng, Wenlong",
+    "Quality":"Average Quality",
+    "Department":"Economics",
+    "Ratings":11,
+    "Quality2":3.2,
+    "Easiness":3
+  },
+  {
+    "Name":"Wesselmann-Lopresti, Debbie",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":4
+  },
+  {
+    "Name":"Wesson, Cameron",
+    "Quality":"Good Quality",
+    "Department":"Anthropology",
+    "Ratings":3,
+    "Quality2":4.8,
+    "Easiness":4
+  },
+  {
+    "Name":"White, Bill",
+    "Quality":"Good Quality",
+    "Department":"Journalism",
+    "Ratings":8,
+    "Quality2":4.6,
+    "Easiness":4.1
+  },
+  {
+    "Name":"White, George",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":4,
+    "Quality2":4.4,
+    "Easiness":2
+  },
+  {
+    "Name":"Whitehouse, Bruce",
+    "Quality":"Good Quality",
+    "Department":"Anthropology",
+    "Ratings":6,
+    "Quality2":4.3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Whitley, Edward",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":13,
+    "Quality2":4.7,
+    "Easiness":3.5
+  },
+  {
+    "Name":"Wiggins, Elizabeth",
+    "Quality":"Poor Quality",
+    "Department":"English",
+    "Ratings":18,
+    "Quality2":2.3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Williams, Eric",
+    "Quality":"Good Quality",
+    "Department":"Political Science",
+    "Ratings":4,
+    "Quality2":4.1,
+    "Easiness":2.2
+  },
+  {
+    "Name":"Wilson, George",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":12,
+    "Quality2":3.1,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Wilson, John",
+    "Quality":"Good Quality",
+    "Department":"Engineering",
+    "Ratings":5,
+    "Quality2":3.8,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Win, Rivka",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":4.2,
+    "Easiness":4.5
+  },
+  {
+    "Name":"Wolfgang, Lenora",
+    "Quality":"Average Quality",
+    "Department":"Russian Studies",
+    "Ratings":9,
+    "Quality2":3,
+    "Easiness":3.9
+  },
+  {
+    "Name":"Woods, David",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":3,
+    "Quality2":5,
+    "Easiness":5
+  },
+  {
+    "Name":"Woolson, Carolin",
+    "Quality":"Poor Quality",
+    "Department":"Philosophy",
+    "Ratings":11,
+    "Quality2":1.4,
+    "Easiness":1.3
+  },
+  {
+    "Name":"Wright, Benjamin",
+    "Quality":"Good Quality",
+    "Department":"Theology",
+    "Ratings":20,
+    "Quality2":3.8,
+    "Easiness":1.9
+  },
+  {
+    "Name":"Wu, Ping-Shi",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":8,
+    "Quality2":3.3,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Wuerth, Andrea",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Wurth, Al",
+    "Quality":"Average Quality",
+    "Department":"Political Science",
+    "Ratings":12,
+    "Quality2":3,
+    "Easiness":3.3
+  },
+  {
+    "Name":"Wylie, Raymond",
+    "Quality":"Good Quality",
+    "Department":"International Studies",
+    "Ratings":25,
+    "Quality2":3.9,
+    "Easiness":4
+  },
+  {
+    "Name":"Yan, Zhiyuan",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":2,
+    "Quality2":2.2,
+    "Easiness":1.5
+  },
+  {
+    "Name":"Yang, KE",
+    "Quality":"Good Quality",
+    "Department":"Finance",
+    "Ratings":6,
+    "Quality2":4,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Yang, Muzhe",
+    "Quality":"Good Quality",
+    "Department":"Economics",
+    "Ratings":7,
+    "Quality2":4.3,
+    "Easiness":4.1
+  },
+  {
+    "Name":"Yao, Yuliang",
+    "Quality":"Good Quality",
+    "Department":"Business",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Yaqub, Aladdin",
+    "Quality":"Good Quality",
+    "Department":"Philosophy",
+    "Ratings":17,
+    "Quality2":4.8,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Yellin, Michael",
+    "Quality":"Good Quality",
+    "Department":"English",
+    "Ratings":6,
+    "Quality2":3.5,
+    "Easiness":3.8
+  },
+  {
+    "Name":"Young, Anne",
+    "Quality":"Good Quality",
+    "Department":"Management",
+    "Ratings":4,
+    "Quality2":4.4,
+    "Easiness":4.8
+  },
+  {
+    "Name":"YU, Wei",
+    "Quality":"Poor Quality",
+    "Department":"Accounting",
+    "Ratings":10,
+    "Quality2":2.2,
+    "Easiness":2.3
+  },
+  {
+    "Name":"Yu, Zicheng",
+    "Quality":"Average Quality",
+    "Department":"Science",
+    "Ratings":4,
+    "Quality2":2.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Yukich, Joseph",
+    "Quality":"Good Quality",
+    "Department":"Mathematics",
+    "Ratings":100,
+    "Quality2":4.9,
+    "Easiness":3
+  },
+  {
+    "Name":"Yun, Tae Sup",
+    "Quality":"Poor Quality",
+    "Department":"Civil Engineering",
+    "Ratings":1,
+    "Quality2":1,
+    "Easiness":2
+  },
+  {
+    "Name":"Zacharia, Zach",
+    "Quality":"Average Quality",
+    "Department":"Management",
+    "Ratings":24,
+    "Quality2":3,
+    "Easiness":2.6
+  },
+  {
+    "Name":"Zaknic, Ivan",
+    "Quality":"Good Quality",
+    "Department":"Architecture",
+    "Ratings":15,
+    "Quality2":4.1,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Zeitler, Peter",
+    "Quality":"Good Quality",
+    "Department":"Environmental Science",
+    "Ratings":14,
+    "Quality2":3.5,
+    "Easiness":2.8
+  },
+  {
+    "Name":"Zeleski, Brian",
+    "Quality":"Average Quality",
+    "Department":"English",
+    "Ratings":4,
+    "Quality2":2.8,
+    "Easiness":3.2
+  },
+  {
+    "Name":"Zellner, Ken",
+    "Quality":"Good Quality",
+    "Department":"Education",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":3
+  },
+  {
+    "Name":"Zeroka, Daniel",
+    "Quality":"Good Quality",
+    "Department":"Chemistry",
+    "Ratings":10,
+    "Quality2":4,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Zhang, Linghai",
+    "Quality":"Average Quality",
+    "Department":"Mathematics",
+    "Ratings":32,
+    "Quality2":3.5,
+    "Easiness":3.6
+  },
+  {
+    "Name":"Zhang, Wei-Xian",
+    "Quality":"Poor Quality",
+    "Department":"Engineering",
+    "Ratings":15,
+    "Quality2":1.6,
+    "Easiness":2.7
+  },
+  {
+    "Name":"Zhang, Xiaohui",
+    "Quality":"Good Quality",
+    "Department":"Mechanical Engineering",
+    "Ratings":1,
+    "Quality2":4.5,
+    "Easiness":3
+  },
+  {
+    "Name":"Zhang, Yuping",
+    "Quality":"Good Quality",
+    "Department":"Sociology",
+    "Ratings":6,
+    "Quality2":3.7,
+    "Easiness":3.7
+  },
+  {
+    "Name":"Zimmerman, Matthew",
+    "Quality":"Good Quality",
+    "Department":"History",
+    "Ratings":1,
+    "Quality2":5,
+    "Easiness":4
+  },
+  {
+    "Name":"Zimmers, Emory",
+    "Quality":"Average Quality",
+    "Department":"Engineering",
+    "Ratings":7,
+    "Quality2":2.6,
+    "Easiness":4.3
+  },
+  {
+    "Name":"Zirkel, Perry",
+    "Quality":"Good Quality",
+    "Department":"Law",
+    "Ratings":19,
+    "Quality2":4.1,
+    "Easiness":2.1
+  },
+  {
+    "Name":"Zoller, Nicholas",
+    "Quality":"Poor Quality",
+    "Department":"Mathematics",
+    "Ratings":2,
+    "Quality2":1.8,
+    "Easiness":1.5
+  },
+  {
+    "Name":"Zuluaga, Luis",
+    "Quality":"Poor Quality",
+    "Department":"Industrial Engineering",
+    "Ratings":1,
+    "Quality2":1.5,
+    "Easiness":2
+  },
+  {
+    "Name":"Zumas, Susan",
+    "Quality":"Poor Quality",
+    "Department":"Economics",
+    "Ratings":24,
+    "Quality2":1.7,
+    "Easiness":3.2
+  }
+]
